@@ -465,7 +465,7 @@ ul.list li a:hover{
 	display: inline-block;
 	font-size: 28px;
 	height: 48px;
-	line-height: 48px;
+	/*line-height: 48px;*/
 	margin: 0 10px  0 0;
 	text-align: center;
 	width: 48px;
@@ -503,7 +503,7 @@ ul.list li a:hover{
 	float: right;
 	padding: 0;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 }
 
 
