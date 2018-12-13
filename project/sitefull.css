@@ -119,6 +119,7 @@ padding:0 15px;
 
 /*Middle left part*/
 .middle_part .left_middle-part{
+ 
   width:60%;
   background: linear-gradient(65deg, #fff, #fff2e6);
   border-right:1px #b2b2b2 dashed;
@@ -126,6 +127,7 @@ padding:0 15px;
   padding:10px 20px;
   font-size: 1.2em;
   display: flex;
+
   flex-direction:column;
   justify-content: space-between;
 }
@@ -495,11 +497,7 @@ visibility: hidden;
 	width: 100%;
 	text-align: right;
 }
-.footer-bottom p{
-	color: #fff;
-	font-size: 18px;
-	margin-bottom: 0px;
-}
+
 
 
 /*media*/
