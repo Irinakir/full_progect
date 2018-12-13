@@ -5,7 +5,7 @@ body{
   background: silver; 
   color: black; 
   grid-template-columns: 1fr ;
-  grid-template-rows: min-content max-content min-content;
+  grid-template-rows: min-content 1fr min-content;
   grid-template-areas: "first_part" 
       "middle_part" "middle_part"
       "footer"  ;
