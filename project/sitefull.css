@@ -537,6 +537,12 @@ visibility: hidden;
   }
  
 }
+@media (max-width: 1000px){
+	.currency a,
+	.language a{
+		front-size:14;
+	}
+}
 @media (max-width: 1100px){
   .thumb,
    .product,
