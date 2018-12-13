@@ -461,7 +461,7 @@ ul.list li a:hover{
 	border-radius: 50%;
 	color: #b8b8b8;
 	display: inline-block;
-	font-size: 18px;
+	font-size: 28px;
 	height: 48px;
 	line-height: 48px;
 	margin: 0 10px  0 0;
@@ -497,10 +497,10 @@ ul.list li a:hover{
 .footer-bottom{
 	display: inline;
 	border-top: 1px solid #434343;
-	float: right;
+	float: center;
 	padding: 0;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 }
 
 
