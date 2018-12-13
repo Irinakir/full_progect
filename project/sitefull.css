@@ -364,15 +364,14 @@ padding:15px 15px 15px 0;
 }
 .Promotions .new_part_with_prod{
   clear:both;
-  padding:0;
+  padding:0;  
   margin:10px;
-  justify-content: flex-left;
+    text-align:center;
+ /* justify-content: flex-left;*/
 }
 
 .Promotions .new_part_with_prod a {
-
-  text-align:center;
- text-decoration:none;
+  text-decoration:none;
   color:#666699;
   font-size: 16px;
   list-style:none;
