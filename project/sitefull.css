@@ -454,8 +454,8 @@ ul.list li a:hover{
 /*Social footer*/
 .footer-social{	
 	display: inline;
-	float: right;
-	margin: 0px 0px;
+	/*float: right;*/
+	margin: 0;
 	width: 100%;
 }
 .footer-social a {
