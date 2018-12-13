@@ -2,11 +2,11 @@ body{
   display: grid;
   margin: 0;
   padding: 0 ;
-  background: silver; 
-  color: black; 
+  background: silver;
+  color: black;
   grid-template-columns: 1fr ;
   grid-template-rows: min-content 1fr min-content;
-  grid-template-areas: "first_part" 
+  grid-template-areas: "first_part"
       "middle_part" "middle_part"
       "footer"  ;
   width: 90%;
@@ -15,12 +15,10 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-
-* {
+ * {
 box-sizing: border-box;
 }
-
-.first_part{
+ .first_part{
   grid-area: first_part;
   background: silver url(https://image.freepik.com/free-photo/no-translate-detected_1220-3310.jpg);
   display: flex;
@@ -28,59 +26,50 @@ box-sizing: border-box;
   padding:0;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   flex-direction: column;
-  align-items: stretch; 
+  align-items: stretch;
   border-block-end:1px #b2b2b2 dashed;
 }
-
-.top_img{
+ .top_img{
   justify-content: flex-start;
-  align-items: stretch; 
+  align-items: stretch;
   marging: 0;
   padding: 0 35px 15px ;
   text-align: left;
 }
-
-.menu{
+ .menu{
   justify-content: flex-start;
-  align-items: stretch; 
+  align-items: stretch;
   marging: 0;
   padding: 0 35px;
   text-align: left;
 }
-
-.footer{
+ .footer{
   grid-area: footer;
   background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);
-  height:80px;
-  border-top:1px #b2b2b2 dashed;
+ height:80px;
+ border-top:1px #b2b2b2 dashed;
 }
-
-.footer_left{
+ .footer_left{
 float:left;
 padding:0 15px;
 }
-
-.menu-footer{
+ .menu-footer{
   float:right;
   padding:0 15px;
 }
-
 .footer a{
   text-decoration:none;
   padding:0 5px 0 5px;
   color: #666699;
   font-size: 16px;
 }
-
-.menu{
+ .menu{
   width:700px;
   height:40px;
   margin:55px 0 0 35px;
   background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);
-  
-}
-
-.menu ul{
+ }
+ .menu ul{
   display:block;
   list-style:none;
   padding:0 10px;
@@ -110,18 +99,14 @@ padding:0 15px;
   border-radius: 5px;
   color:#fff;
 }
-
-.middle_part{
+ .middle_part{
   grid-area: middle_part;
-  background: white; 
+  background: white;
   flex-direction: column;
-  align-items: stretch; 
-   height:auto;
+  align-items: stretch;
 }
-
-/*Middle left part*/
+ /*Middle left part*/
 .middle_part .left_middle-part{
- 
   width:60%;
   background: linear-gradient(65deg, #fff, #fff2e6);
   border-right:1px #b2b2b2 dashed;
@@ -129,21 +114,17 @@ padding:0 15px;
   padding:10px 20px;
   font-size: 1.2em;
   display: flex;
-
   flex-direction:column;
   justify-content: space-between;
 }
-
-.middle_part .right_middle-part{
+ .middle_part .right_middle-part{
   width:40%;
   float:left;
   padding:10px 20px;
   font-size: 0.8em;
-
- /*background: #f0f0f5;*/
+  /*background: #f0f0f5;*/
 }
-
-.title_middle{
+ .title_middle{
   color:red;
   padding:0px;
   float:left;
@@ -163,14 +144,12 @@ padding:0 15px;
   float:left;
   width:73%;
   height:auto;
- 
 }
 .prod_title_middle{
   color:#ac3939;
   font-size: 18px;
 }
-
-.prod_text_middle{
+ .prod_text_middle{
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 12px;
 }
 .more{
@@ -180,9 +159,8 @@ text-decoration:none;
 font-size:11px;
 padding:0px 15px 0 0 ;
 }
-
-.prod_img{
-  float:right;
+ .prod_img{
+  float:left;
   padding:0 50px 0 0;
   width:25%;
   height:30%;
@@ -192,96 +170,74 @@ padding:0px 15px 0 0 ;
   margin:20px 10px 0 0;
   clear:both;
 }
-
-.bottom-part{
+ .bottom-part{
   height:20px;
   border-block-end:1px #b2b2b2 dashed;
 }
-
-.new_prod {
+ .new_prod {
   clear:both;
-  padding:0;  
+  padding:0;
   margin:0px;
   display:flex;
   text-align:justify;
   justify-content: space-between;
-  
-}
+ }
 .new_prod_part a{
   text-decoration:none;
   color:#666699;
   font-size: 18px;
   list-style:none;
-  
-}
-
-.new_prod_part-img{
-
-height:auto;
+ }
+ .new_prod_part-img{
+ height:auto;
 text-align:center;
 position:relative;
-  
-}
-
-img.product{
+ }
+ img.product{
   padding:0;
 }
-
-.new_icon{
+ .new_icon{
   position:absolute;
   top:0px;
   right:0;
   z-index:100;
-  
-
-}
+ }
 .new_prod_part {
-
-  text-align:center;
+   text-align:center;
 /*padding:30px;*/
 }
-.new_prod_part-img{
-  border-radius: 15px;
-  box-shadow: 1px 1px 8px 1px #e0e0eb; 
-    border-left: 1px solid #e0e0eb;
+ .new_part_with_prod {
+  border-left: 1px solid #e0e0eb;
   padding: 10px ;
   margin: 20px;
-}
-
-.new_part_with_prod {
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px 1px #e0e0eb;
   width:20%;
   float:left;
   height:auto;
 }
-
-/*Middle right part*/
-
-.right_middle-part span{
+ /*Middle right part*/
+ .right_middle-part span{
   color:#c65353;
-  font-size:17px;
-
+  font-size:18px;
 }
 .language{
     float:left;
- 
 }
 .currency{
    float:right;
-
 }
 .currency a{
   text-decoration:none;
   color:#4d2600;
   border:1px #ecd9c6 solid;
-  font-size:17px;
-  
+  font-size:18px;
 }
 .currency a:hover{
   background:#ff9933;
    border:1px #663300 solid;
 }
-
-.language a{
+ .language a{
   text-decoration:none;
   color:#5c5c8a;
   padding:2px;
@@ -292,25 +248,18 @@ img.product{
 border:1px #e0e0eb solid;
 }
 /*Middle right part cart*/
-
-.cart,
-.cart div
-{
+ .cart,
+.cart div{
   float:left;
-  margin:10px 10px 5px 0;
+   margin:10px 10px 10px 0;
   padding:0 0 2px 0;
   color:#c65353;
   font-size:15px;
   }
-.right_middle-part .title_icon{
-   float:left;
-}
-
- .cart div.cart_content{
+  .cart div.cart_content{
   color:#33334d;
 }
-
-.cart_content{
+ .cart_content{
   float:left;
   padding:3px;
   color:#33334d;
@@ -323,30 +272,26 @@ display:block;
 margin:12px 0 0 10px;
 color:#990000;
 }
-
-.middle_part .right_middle-part{
+ .middle_part .right_middle-part{
   float:left;
   padding:10px 20px;
   font-size: 1.2em;
-
-}
-
-/*--About--*/
-.about{
-  width:100%;
-  clear:both;
-  padding:0 20px 0 10px;
  }
-
+ /*--About--*/
+.about{
+width:100%;
+clear:both;
+padding:0 20px 20px 0;
+  background:url(images/border.gif) no-repeat bottom center;
+ }
  .about .title,
-.right-part-box .title{
+.Promotions .title{
    color:#c65353;
-   font-size:21px;
+   font-size:24px;
 }
 .about{
   font-size:0.8em;
-
-}
+ }
 img.right{
 float:right;
 padding:0 0 0 10px;
@@ -354,72 +299,40 @@ padding:0 0 0 10px;
 .bottom-part_right{
   height:10px;
   padding:0px;
-  width:100%;
-  border-block-end:5px double #b2b2b2  ;
+   border-block-end:5px double #b2b2b2  ;
   writing-mode: horizontal-tb;
 }
-
- .bottom-part_right{
-  height:10px;
-  padding:8px;
-  width:100%;
-  border-block-end:5px double #b2b2b2  ;
-  writing-mode: horizontal-tb;
-}
-
-.middle_part .right_middle-part{
+ .middle_part .right_middle-part{
   width:40%;
   float:left;
   padding:10px 20px;
   font-size: 0.8em;
-
- /*background: #f0f0f5;*/
+  /*background: #f0f0f5;*/
 }
-
-/*right-part-box*/
-img .about{
-    padding:0;
-  float:right;
-}
-.right-part-box{
-  width:50%;
-  float:left;
-  padding:0;
-  marging:0;  
-}
+ /*Promotions*/
 .Promotions{
-  width:200%;
-}
-
-
-
- .Promotions .new_prod_part-img  {
-    float:left;
-   
-}
-
+width:100%;
+float:left;
+padding:15px 15px 15px 0;
+ }
 .Promotions .new_part_with_prod{
   clear:both;
-  padding:0;  
-  margin:0px;
-  text-align:center;
+  padding:0;
+  margin:10px;
+  justify-content: flex-left;
 }
-.thumb{
-  width:120%
-}
-.Promotions .new_part_with_prod a {
-  text-decoration:none;
+ .Promotions .new_part_with_prod a {
+   text-align:center;
+ text-decoration:none;
   color:#666699;
-  font-size: 13px;
+  font-size: 18px;
   list-style:none;
-  text-align:center;
 }
-
-.right-part-box .title {
-  padding:15px 0 0 0 ;
-  marging:0;
-}
-
+  .right_box{
+    clear:both;
+    float:right;
+   padding:10px;
+ }
 ul.list{
   clear:both;
   padding:10px 0 0 20px;
@@ -449,6 +362,7 @@ ul.list li a:hover{
   }
 }
 
+
 /*Social footer*/
 .footer-social{	
 	display: inline;
@@ -477,6 +391,7 @@ ul.list li a:hover{
 	background-color: #3b5998;
 	border-color: #3b5998;
 	color: #fff;
+  
 }
 
 .footer-social a.youtube:hover{
@@ -497,12 +412,11 @@ ul.list li a:hover{
 .footer-bottom{
 	display: inline;
 	border-top: 1px solid #434343;
-	float: center;
+	float: right;
 	padding: 0;
 	width: 100%;
-	text-align: center;
+	text-align: right;
 }
-
 
 
 /*media*/
@@ -538,7 +452,7 @@ visibility: hidden;
   .thumb,
    .product,
   {
-    width:30%;
+    width:50%;
   }
   }
 @media (max-width: 400px){
@@ -556,7 +470,7 @@ visibility: hidden;
  .thumb,
     .Promotions img,
   .product{
-    width:80%;
+    width:90%;
   
   }
  
