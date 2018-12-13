@@ -467,6 +467,7 @@ ul.list li a:hover{
 	height: 48px;
 	line-height: 48px;
 	margin: 0 10px  0 0;
+	padding:0;
 	text-align: center;
 	width: 48px;
 	-webkit-transition: all 0.5s;
@@ -502,6 +503,7 @@ ul.list li a:hover{
 	border-top: 1px solid #434343;
 	float: right;
 	padding: 0;
+	margin:0px;
 	width: 100%;
 	text-align: right;
 }
