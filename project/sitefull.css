@@ -454,7 +454,7 @@ ul.list li a:hover{
 /*Social footer*/
 .footer-social{	
 	display: inline;
-	float: left;
+	float: right;
 	margin: 0px 0px;
 	width: 100%;
 }
@@ -463,12 +463,12 @@ ul.list li a:hover{
 	border-radius: 50%;
 	color: #b8b8b8;
 	display: inline-block;
-	font-size: 22px;
-	height: 40px;
-	line-height: 40px;
+	font-size: 28px;
+	height: 48px;
+	line-height: 48px;
 	margin: 0 10px  0 0;
 	text-align: center;
-	width: 40px;
+	width: 48px;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -500,11 +500,12 @@ ul.list li a:hover{
 .footer-bottom{
 	display: inline;
 	border-top: 1px solid #434343;
-	float: left;
+	float: right;
 	padding: 0;
 	width: 100%;
-	text-align: center;
+	text-align: right;
 }
+
 
 
 
