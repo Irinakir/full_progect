@@ -442,6 +442,67 @@ visibility: hidden;
   }
 }
 
+/*Social footer*/
+.footer-social{	
+	display: inline;
+	float: right;
+	margin: 0px 0px;
+	width: 100%;
+}
+.footer-social a {
+	border: 1px solid #505050;
+	border-radius: 50%;
+	color: #b8b8b8;
+	display: inline-block;
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	margin: 0 10px  0 0;
+	text-align: center;
+	width: 48px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.footer-social a.facebook:hover{
+	background-color: #3b5998;
+	border-color: #3b5998;
+	color: #fff;
+}
+
+.footer-social a.youtube:hover{
+	color: #fff;
+	background-color: #bb0000;
+	border-color: #bb0000;
+}
+.footer-social a.linkedin:hover{
+	color: #fff;
+	background-color: #007bb5;
+	border-color: #007bb5;
+}
+.footer-social a.instagram:hover{
+	color: #fff;
+	background-color: #ffcc99;
+	border-color: #ffcc99;
+}
+.footer-bottom{
+	display: inline;
+	border-top: 1px solid #434343;
+	float: right;
+	padding: 0;
+	width: 100%;
+	text-align: right;
+}
+.footer-bottom p{
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+
+/*media*/
 @media (max-width: 1150px){
   .new_part_with_prod,
  .new_prod_part-img img,
