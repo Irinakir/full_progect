@@ -452,7 +452,7 @@ ul.list li a:hover{
 /*Social footer*/
 .footer-social{	
 	display: inline;
-	float: right;
+	float: center;
 	margin: 0px 0px;
 	width: 100%;
 }
