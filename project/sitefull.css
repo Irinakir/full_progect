@@ -452,7 +452,7 @@ ul.list li a:hover{
 /*Social footer*/
 .footer-social{	
 	display: inline;
-	float: center;
+	float: right;
 	margin: 0px 0px;
 	width: 100%;
 }
@@ -498,7 +498,7 @@ ul.list li a:hover{
 .footer-bottom{
 	display: inline;
 	border-top: 1px solid #434343;
-	float: center;
+	float: right;
 	padding: 0;
 	width: 100%;
 	text-align: center;
