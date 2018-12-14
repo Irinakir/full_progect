@@ -112,7 +112,7 @@ padding:0 15px;
 }
 .menu ul li a:hover{
 /*  background:url(https://www.free-css.com/assets/files/free-css-templates/preview/page92/flower-shop/images/logo.gif); */
-  background:red;
+  background:#ff0000;
   border-radius: 5px;
   color:#fff;
 }
@@ -151,7 +151,7 @@ padding:0 15px;
 
 
 .title_middle{
-  color:red;
+  color:#ff0000;
   padding:0px;
   float:left;
   font-size:20px;
