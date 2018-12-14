@@ -389,7 +389,7 @@ img .about{
   float:right;
 }
 .right-part-box{
-  width:70%;
+  width:50%;
   float:left;
   padding:0;
   marging:0;  
@@ -411,8 +411,8 @@ img .about{
   margin:0px;
   text-align:center;
 }
-.thumb{
-  width:95%
+img.thumb {
+  width:100%;
 }
 .Promotions .new_part_with_prod a {
   text-decoration:none;
