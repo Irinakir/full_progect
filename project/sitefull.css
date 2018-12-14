@@ -510,10 +510,9 @@ ul.list li a:hover{
 	width: 100%;
 	/*text-align: right;*/
 }
-.footer-bottom p{
-	color: #fff;
-	font-size: 18px;
-	margin-bottom: 0px;
+.footer-social .fa
+{
+  line-height: 48px;
 }
 
 /*media*/
