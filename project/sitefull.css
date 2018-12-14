@@ -22,7 +22,8 @@ box-sizing: border-box;
 
 .first_part{
   grid-area: first_part;
-  background: silver url(https://image.freepik.com/free-photo/no-translate-detected_1220-3310.jpg);
+  /*background: silver url(https://image.freepik.com/free-photo/no-translate-detected_1220-3310.jpg);*/
+  background: silver url(pic/fon.jpg);
 	
   display: flex;
   font-size: 1.5em;
@@ -51,7 +52,8 @@ box-sizing: border-box;
 
 .footer{
   grid-area: footer;
-  background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);
+ /* background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);*/
+  background: silver url(pic/fon2.jpg);
   height:80px;
   border-top:1px #b2b2b2 dashed;
 }
@@ -77,7 +79,8 @@ padding:0 15px;
   width:700px;
   height:40px;
   margin:55px 0 0 35px;
-background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);
+  /*background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);*/
+  background: silver url(pic/fon2.jpg);	
 	
   
 }
