@@ -552,7 +552,8 @@ visibility: hidden;
   .new_icon,
   .product
   {
-visibility: hidden;
+/*visibility: hidden;*/
+    width:40px;
   }
  
 }
