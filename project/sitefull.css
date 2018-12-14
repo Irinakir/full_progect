@@ -562,9 +562,14 @@ visibility: hidden;
   .view_cart{
     font-size:0.6em;
   }
+   .about .title,
+.right-part-box .title{
+  font-size:16px;
 }
-
-
+  .about{
+    font-size:13px;
+  }
+}
 @media (max-width: 400px){
   .Promotions img,
   .new_part_with_prod a,
