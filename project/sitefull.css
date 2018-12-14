@@ -523,10 +523,10 @@ ul.list li a:hover{
   .new_prod img,
   .new_prod_part-img,
   .Promotions .new_prod_part-img{
-visibility: hidden;
+/*visibility: hidden;*/
   padding: 0 ;
   margin: 0;
-  
+   width:30%;
   }
 }
 @media (max-width: 1150px){
