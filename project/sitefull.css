@@ -458,7 +458,7 @@ ul.list li a:hover{
 /*Social footer*/
 .footer-social{	
 	display: inline;
-	/*float: right;*/
+	float: right;
 	margin: 0px 0px;
 	width: 100%;
 }
@@ -509,7 +509,11 @@ ul.list li a:hover{
 	width: 100%;
 	/*text-align: right;*/
 }
-
+.footer-bottom p{
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
 
 /*media*/
 
