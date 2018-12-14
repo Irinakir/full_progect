@@ -523,10 +523,10 @@ ul.list li a:hover{
   .new_prod img,
   .new_prod_part-img,
   .Promotions .new_prod_part-img{
-/*visibility: hidden;*/
+visibility: hidden;
   padding: 0 ;
   margin: 0;
-   width:30%;
+  
   }
 }
 @media (max-width: 1150px){
@@ -543,7 +543,27 @@ ul.list li a:hover{
   
   }
  
+  .language a,
+   .language span{
+  font-size:0.5em;
+ 
 }
+  .currency a,
+  .currency span{
+  font-size:0.5em;
+}
+  .cart,
+  .cart div,
+  .cart_content,
+  .cart_content span
+  {
+    font-size:0.75em;
+  }
+  .view_cart{
+    font-size:0.6em;
+  }
+}
+
 
 @media (max-width: 400px){
   .Promotions img,
