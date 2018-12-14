@@ -120,18 +120,19 @@ padding:0 15px;
 .middle_part{
   grid-area: middle_part;
   background: white; 
-  flex-direction: column;
-  align-items: stretch; 
-   height:auto;
+
+    display: flex;
+    flex-direction: row;
+
 }
 
 /*Middle left part*/
-.middle_part .left_middle-part{
+.left_middle-part{
  
   width:60%;
   background: linear-gradient(65deg, #fff, #fff2e6);
   border-right:1px #b2b2b2 dashed;
-  float:left;
+
   padding:10px 20px;
   font-size: 1.2em;
   display: flex;
@@ -140,14 +141,14 @@ padding:0 15px;
   justify-content: space-between;
 }
 
-.middle_part .right_middle-part{
+.right_middle-part{
   width:40%;
-  float:left;
   padding:10px 20px;
   font-size: 0.8em;
 
  /*background: #f0f0f5;*/
 }
+
 
 .title_middle{
   color:red;
