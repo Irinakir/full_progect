@@ -24,6 +24,7 @@ box-sizing: border-box;
   grid-area: first_part;
   /*background: silver url(https://image.freepik.com/free-photo/no-translate-detected_1220-3310.jpg);*/
   background: silver url(pic/fon.jpg);
+	/*opacity:0.5;*/
 	
   display: flex;
   font-size: 1.5em;
