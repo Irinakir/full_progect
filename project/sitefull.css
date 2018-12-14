@@ -459,7 +459,6 @@ ul.list li a:hover{
 .footer-social{	
 	display: inline;
 	float: right;
-	margin: 0px 0px;
 	width: 100%;
 }
 .footer-social a {
@@ -469,7 +468,7 @@ ul.list li a:hover{
 	display: inline-block;
 	font-size: 28px;
 	height: 48px;
-	line-height: 0px;
+	/*line-height: 0px;*/
 	margin: 0 10px  0 0;
 	text-align: center;
 	width: 48px;
