@@ -572,6 +572,73 @@ ul.list li a:hover{
   line-height: 48px;
 }
 
+
+/*contact_form*/
+.contact_form{
+  width:350px;
+  float:left;
+  padding:15px;
+  margin:20px 0 0 35px;
+  border:1px #DFD1D2 dashed;
+  position:relative;
+}
+
+.form_row{
+  width:250px;
+  clear:both;
+  padding:10px 0 10px 0;
+  color:#a53d17;
+}
+label.contact{
+  width:20px;
+  float:left;
+  font-size:13px;
+  text-align:right;
+  padding:4px 5px 0 0;
+  color: #333333;
+}
+.contact_input{
+  width:300px;
+  height:25px;
+  background-color:#fff;
+  color:#999999;
+  border:1px #DFDFDF solid;
+  float:left;
+}
+
+input.register{
+  width:90px;
+  height:30px;
+  border:none;
+  cursor:pointer;
+  text-align:center;
+  float:right;
+  color:#fff;
+  background-color:#993333;
+  border-radius:15px;
+
+}
+
+.terms{
+  padding:0px;
+  font-size:18px;
+}
+
+.form_subtitle{
+position:absolute;
+top:-11px;
+left:7px;
+width:auto;
+height:20px;
+background-color:#990000;
+text-align:center;
+padding:0 7px 0 7px;
+color:#FFFFFF;
+font-size:11px;
+line-height:20px;
+}
+
+
 /*media*/
 
 @media (max-width: 400px){
