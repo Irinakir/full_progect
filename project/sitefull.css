@@ -174,7 +174,8 @@ padding:0 15px;
   display: flex;
 
   flex-direction:column;
-  justify-content: space-between;
+ /* justify-content: space-between;*/
+ justify-content:  stretch;
 }
 
 .right_middle-part{
@@ -437,7 +438,24 @@ img .about{
   width:200%;
 }
 
+/*Page about*/
+#div_about {
+ display: inline-block;
+ text-align: center; 
+  margin: 50px; 
+  
+}
+#p_about {
 
+  text-indent: 40px; /* Отступ первой строки */
+  text-align: justify; /* Выравнивание по ширине */
+	font-family: "PT Sans", Arial, Helvetica, sans-serifbody;
+	font-size: 14pt; /* Размер шрифта  */
+  margin:0;
+  padding:0;
+  
+  }
+/*end page about*/
 
  .Promotions .new_prod_part-img  {
     float:left;
