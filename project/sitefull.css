@@ -450,7 +450,7 @@ img .about{
   text-indent: 40px; /* Отступ первой строки */
   text-align: justify; /* Выравнивание по ширине */
 	font-family: "PT Sans", Arial, Helvetica, sans-serifbody;
-	font-size: 14pt; /* Размер шрифта  */
+	font-size: 12pt; /* Размер шрифта  */
   margin:0;
   padding:0;
   
