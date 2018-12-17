@@ -382,14 +382,17 @@ color:#990000;
  }
 
  .about .title,
+.about a,
 .right-part-box .title{
    color:#c65353;
    font-size:21px;
 }
-.about{
+.about a{
   font-size:0.8em;
-
+  text-decoration:none;
+  list-style:none;
 }
+
 img.right{
 float:right;
 padding:0 0 0 10px;
