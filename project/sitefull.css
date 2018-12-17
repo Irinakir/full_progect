@@ -20,6 +20,27 @@ body{
 box-sizing: border-box;
 }
 
+#popup-container{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#0000006e;
+  width:100%;
+  height:100%;
+/*  opacity:0.5;*/
+  
+  /*display:flex;*/
+  z-index:500;
+  align-items: center;
+  justify-content: center;
+}
+#popup{
+  width:280px;
+  height: 320px;
+  background-color:#fff;
+}
+
 .first_part{
   grid-area: first_part;
   /*background: silver url(https://image.freepik.com/free-photo/no-translate-detected_1220-3310.jpg);*/
