@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 $(".product").on('click', function() {
   //$('.new_prod_part').click(function(){
     $('#popup-container').css('display', 'flex');
@@ -27,4 +28,4 @@ $(".new_prod_part-img").on('click', function() {
     $('#popup-container').css('display', 'none');
     }
     });
-
+});
