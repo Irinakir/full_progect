@@ -647,18 +647,8 @@ color:#FFFFFF;
 font-size:11px;
 line-height:20px;
 }
-a.contact{
-width:53px;
-height:24px;
-display:block;
-float:right;
-margin:0 0 0 10px;
-text-decoration:none;
-text-align:center;
-line-height:24px;
-color:#fff;
-}
-a.terms{
+
+checkbox_terms{
 width:71px;
 height:25px;
 display:block;
