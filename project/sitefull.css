@@ -90,10 +90,7 @@ box-sizing: border-box;
   background: #990000;
    border-radius: 5px;
 }
-.menu ul li.selected{
-  background: #990000;
-  border-radius: 15px;
-}
+
 
 
 .footer{
@@ -158,7 +155,7 @@ padding:0 15px;
 /*  background:url(https://www.free-css.com/assets/files/free-css-templates/preview/page92/flower-shop/images/logo.gif); */
   /*background:url(pic/menu_bg.jpg) no-repeat center;*/
   /*background:#ff0000;*/
-  background: #cc0000;	
+  background: #e60000;	
   border-radius: 5px;
   color:#fff;
 }
