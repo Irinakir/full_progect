@@ -649,27 +649,10 @@ line-height:20px;
 }
 
 .checkbox_terms{
-width:71px;
-height:25px;
-display:block;
-float:right;
-margin:10px 30px 0 10px;
-text-decoration:none;
-text-align:center;
-line-height:25px;
-color:#fff;
+font-size:13px;
+color:#a53d17;
 }
-a.continue{
-width:71px;
-height:25px;
-display:block;
-float:left;
-margin:10px 0 0 0px;
-text-decoration:none;
-text-align:center;
-line-height:25px;
-color:#fff;
-}
+
 
 /*media*/
 
