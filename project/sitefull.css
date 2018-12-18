@@ -653,7 +653,6 @@ height:24px;
 display:block;
 float:right;
 margin:0 0 0 10px;
-background:url(images/contact_bt.gif) no-repeat center;
 text-decoration:none;
 text-align:center;
 line-height:24px;
@@ -665,7 +664,6 @@ height:25px;
 display:block;
 float:right;
 margin:10px 30px 0 10px;
-background:url(images/register_bt.gif) no-repeat center;
 text-decoration:none;
 text-align:center;
 line-height:25px;
@@ -677,7 +675,6 @@ height:25px;
 display:block;
 float:left;
 margin:10px 0 0 0px;
-background:url(images/register_bt.gif) no-repeat center;
 text-decoration:none;
 text-align:center;
 line-height:25px;
@@ -692,7 +689,7 @@ color:#fff;
   .new_prod img,
   .new_prod_part-img,
   .Promotions .new_prod_part-img{
-visibility: hidden;
+  visibility: hidden;
   padding: 0 ;
   margin: 0;
   
