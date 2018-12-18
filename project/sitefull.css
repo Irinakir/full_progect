@@ -597,6 +597,7 @@ ul.list li a:hover{
   width:250px;
   clear:both;
   padding:10px 0 10px 0;
+  font-size:13px;
   color:#a53d17;
 }
 label.contact{
