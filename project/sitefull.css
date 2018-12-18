@@ -88,6 +88,9 @@ box-sizing: border-box;
   line-height:27px;
  /* background:#ff0000;*/
   background: #990000;
+}
+.selected{
+
   border-redius:15px;
 }
 
