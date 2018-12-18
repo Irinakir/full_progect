@@ -665,6 +665,18 @@ border:1px #DFDFDF solid;
 float:left;
 }
 
+a.contact{
+width:53px;
+height:24px;
+display:block;
+float:right;
+margin:0 0 0 10px;
+text-decoration:none;
+text-align:center;
+line-height:24px;
+color:#fff;
+}
+
 /*media*/
 
 @media (max-width: 400px){
