@@ -43,18 +43,6 @@ box-sizing: border-box;
 
 }
 
-#order_cart{
-  position: absolute;
-bottom:10px; right:110px;
-  border-radius:15px;
-  outline: none;
-
-}
-#order_cart:hover{
-  background-color:#e6e6ff;
-  color:#001f4d;
-
-}
 
 .first_part{
   grid-area: first_part;
@@ -98,7 +86,8 @@ bottom:10px; right:110px;
   color:#fff;
   font-size:13px;
   line-height:27px;
-  background:red;
+ /* background:#ff0000;*/
+	  background: silver url(pic/contact_bt.gif);
   border-redius:15px;
 }
 
@@ -165,7 +154,8 @@ padding:0 15px;
 .menu ul li a:hover{
 /*  background:url(https://www.free-css.com/assets/files/free-css-templates/preview/page92/flower-shop/images/logo.gif); */
   /*background:url(pic/menu_bg.jpg) no-repeat center;*/
-  background:#ff0000;
+  /*background:#ff0000;*/
+  background: silver url(pic/fon2.jpg);	
   border-radius: 5px;
   color:#fff;
 }
