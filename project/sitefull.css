@@ -629,6 +629,7 @@ input.register{
   background-color:#993333;
   border-radius:15px;
   background:url(pic/register_bt.gif) no-repeat center;
+  outline : none;
 }
 
 .terms{
