@@ -86,7 +86,7 @@ bottom:10px; right:110px;
   padding: 0 35px;
   text-align: left;
 }
-#menu ul li.selected a{
+.menu ul li.selected a{
 height:27px;
 display:block;
 padding:0px 10px 0 10px;
