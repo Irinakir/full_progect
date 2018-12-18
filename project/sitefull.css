@@ -647,7 +647,42 @@ color:#FFFFFF;
 font-size:11px;
 line-height:20px;
 }
-
+a.contact{
+width:53px;
+height:24px;
+display:block;
+float:right;
+margin:0 0 0 10px;
+background:url(images/contact_bt.gif) no-repeat center;
+text-decoration:none;
+text-align:center;
+line-height:24px;
+color:#fff;
+}
+a.checkout{
+width:71px;
+height:25px;
+display:block;
+float:right;
+margin:10px 30px 0 10px;
+background:url(images/register_bt.gif) no-repeat center;
+text-decoration:none;
+text-align:center;
+line-height:25px;
+color:#fff;
+}
+a.continue{
+width:71px;
+height:25px;
+display:block;
+float:left;
+margin:10px 0 0 0px;
+background:url(images/register_bt.gif) no-repeat center;
+text-decoration:none;
+text-align:center;
+line-height:25px;
+color:#fff;
+}
 
 /*media*/
 
