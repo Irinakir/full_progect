@@ -43,6 +43,17 @@ box-sizing: border-box;
 
 }
 
+#order_cart{
+  position: absolute;
+  bottom:10px; right:110px;
+  border-radius:15px;
+  outline: none;
+}
+
+#order_cart:hover{
+  background-color:#e6e6ff;
+  color:#001f4d;
+}
 
 .first_part{
   grid-area: first_part;
