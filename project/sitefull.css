@@ -87,7 +87,7 @@ box-sizing: border-box;
   font-size:13px;
   line-height:27px;
  /* background:#ff0000;*/
-	  background: silver url(pic/contact_bt.gif);
+  background: #990000;
   border-redius:15px;
 }
 
@@ -155,7 +155,7 @@ padding:0 15px;
 /*  background:url(https://www.free-css.com/assets/files/free-css-templates/preview/page92/flower-shop/images/logo.gif); */
   /*background:url(pic/menu_bg.jpg) no-repeat center;*/
   /*background:#ff0000;*/
-  background: silver url(pic/fon2.jpg);	
+  background: #990000;	
   border-radius: 5px;
   color:#fff;
 }
