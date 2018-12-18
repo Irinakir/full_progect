@@ -86,18 +86,20 @@ bottom:10px; right:110px;
   padding: 0 35px;
   text-align: left;
 }
+
 .menu ul li.selected a{
-height:27px;
-display:block;
-padding:0px 10px 0 10px;
-margin:0 5px 0 5px;
-float:left;
-text-decoration:none;
-text-align:center;
-color:#fff;
-font-size:13px;
-line-height:27px;
-background:red;
+  height:27px;
+  display:block;
+  padding:0px 10px 0 10px;
+  margin:0 5px 0 5px;
+  float:left;
+  text-decoration:none;
+  text-align:center;
+  color:#fff;
+  font-size:13px;
+  line-height:27px;
+  background:red;
+  border-redius:15px;
 }
 
 
