@@ -88,11 +88,11 @@ box-sizing: border-box;
   line-height:27px;
  /* background:#ff0000;*/
   background: #990000;
-  border-redius:15px;
+   border-radius: 5px;
 }
 .menu ul li.selected{
   background: #990000;
-  border-redius:15px;
+  border-radius: 15px;
 }
 
 
