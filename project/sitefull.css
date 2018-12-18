@@ -407,7 +407,7 @@ padding:0 0 20px 10px;
 }
 .bottom-part_right{
   height:10px;
-  padding:0px;
+  padding: 10px 0 15px 0;
   width:100%;
   border-block-end:5px double #b2b2b2  ;
   writing-mode: horizontal-tb;
