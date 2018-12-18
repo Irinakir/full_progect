@@ -394,9 +394,15 @@ color:#990000;
   list-style:none;
 }
 
+.about_box_right{
+  padding:0 0 20px 0;
+  marging:0; 
+}
+
+
 img.right{
 float:right;
-width:98px;
+width:110px;
 padding:0 0 20px 10px;
 }
 .bottom-part_right{
