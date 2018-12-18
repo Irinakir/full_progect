@@ -654,6 +654,16 @@ input.register{
   color:#a53d17;
 }
 
+textarea.contact_textarea{
+width:253px;
+height:120px;
+font-family:"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+font-size:12px;
+color: #999999;
+background-color:#fff;
+border:1px #DFDFDF solid;
+float:left;
+}
 
 /*media*/
 
