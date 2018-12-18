@@ -628,6 +628,7 @@ input.register{
   color:#fff;
   background-color:#993333;
   border-radius:15px;
+  background:url(pic/register_bt.gif) no-repeat center;
 }
 
 .terms{
@@ -647,6 +648,7 @@ input.register{
   color:#FFFFFF;
   font-size:11px;
   line-height:20px;
+	
 }
 
 .checkbox_terms{
@@ -675,6 +677,7 @@ text-decoration:none;
 text-align:center;
 line-height:24px;
 color:#fff;
+background:url(pic/contact_bt.gif) no-repeat center;
 }
 
 /*media*/
