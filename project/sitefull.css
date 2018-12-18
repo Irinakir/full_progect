@@ -597,9 +597,10 @@ ul.list li a:hover{
   width:250px;
   clear:both;
   padding:10px 0 10px 0;
-  font-size:13px;
+  font-size:14px;
   color:#a53d17;
 }
+
 label.contact{
   width:20px;
   float:left;
@@ -608,6 +609,7 @@ label.contact{
   padding:4px 5px 0 0;
   color: #333333;
 }
+
 .contact_input{
   width:300px;
   height:25px;
@@ -627,7 +629,6 @@ input.register{
   color:#fff;
   background-color:#993333;
   border-radius:15px;
-
 }
 
 .terms{
@@ -636,22 +637,22 @@ input.register{
 }
 
 .form_subtitle{
-position:absolute;
-top:-11px;
-left:7px;
-width:auto;
-height:20px;
-background-color:#990000;
-text-align:center;
-padding:0 7px 0 7px;
-color:#FFFFFF;
-font-size:11px;
-line-height:20px;
+  position:absolute;
+  top:-11px;
+  left:7px;
+  width:auto;
+  height:20px;
+  background-color:#990000;
+  text-align:center;
+  padding:0 7px 0 7px;
+  color:#FFFFFF;
+  font-size:11px;
+  line-height:20px;
 }
 
 .checkbox_terms{
-font-size:13px;
-color:#a53d17;
+  font-size:13px;
+  color:#a53d17;
 }
 
 
