@@ -705,19 +705,18 @@ a.contact{
 .prod_det_box{
 float:left;
 padding:0 0 0 15px;
-    border-radius: 15px;
-
-  padding: 10px ;
-  margin: 20px;
+/*  padding: 10px ;
+  margin: 20px;*/
 position:relative;
 }
 
 .special_icon{
-position:absolute;
-top:0px;
-_top:6px;
-right:2px;
-z-index:250;
+ position:absolute;
+ top:0px;
+ _top:6px;
+ right:2px;
+ z-index:250;
+ font-size:14px;
 }
 
 
