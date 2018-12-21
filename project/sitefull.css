@@ -701,6 +701,17 @@ a.contact{
   font-size: 15px;
 }
 
+/**/
+
+.new_prod_flower{
+  clear:both;
+  padding:20px;  
+  margin:20px;
+  display:flex;
+  text-align:center;
+  justify-content: center;
+}
+
 #all_products{
   padding:15px;
   margin:15px;
