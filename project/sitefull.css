@@ -702,6 +702,13 @@ a.contact{
 }
 
 /**/
+.special_icon{
+position:absolute;
+top:0px;
+_top:6px;
+right:2px;
+z-index:250;
+}
 
 .prod_det_box{
 width:295px;
