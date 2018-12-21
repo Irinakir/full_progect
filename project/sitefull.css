@@ -719,7 +719,9 @@ position:relative;
  font-size:14px;
 }
 
-
+.part_with_prod {
+      border-radius: 15px;
+}
 
 .new_prod_flower{
   clear:both;
