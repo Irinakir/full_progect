@@ -706,13 +706,12 @@ a.contact{
 float:left;
 padding:0 0 0 15px;
     border-radius: 15px;
- /*   border-radius: 15px;
-  box-shadow: 1px 1px 8px 1px #e0e0eb; 
-  border-left: 1px solid #e0e0eb;*/
+
   padding: 10px ;
   margin: 20px;
 position:relative;
 }
+
 .special_icon{
 position:absolute;
 top:0px;
