@@ -711,11 +711,16 @@ z-index:250;
 }
 
 .prod_det_box{
-width:295px;
 float:left;
 padding:0 0 0 15px;
-position:relative;
+    border-radius: 15px;
+  box-shadow: 1px 1px 8px 1px #e0e0eb; 
+  border-left: 1px solid #e0e0eb;
+  padding: 10px ;
+  margin: 20px;
+
 }
+
 
 .new_prod_flower{
   clear:both;
