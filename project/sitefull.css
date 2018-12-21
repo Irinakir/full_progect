@@ -703,11 +703,21 @@ a.contact{
 
 /**/
 .prod_det_box{
-float:left;
-padding:0 0 0 15px;
-/*  padding: 10px ;
+  float:left;
+  border-left: 1px solid #e0e0eb;
+  padding: 20px 10px;
+  marging: 10px;
+  box-shadow: 1px 1px 8px 1px #e0e0eb;
+   /* width:80%;*/
+  border-radius:15px;
+  float:left;
+  width:73%;
+  height:auto;
+ /* padding: 10px ;
   margin: 20px;*/
 position:relative;
+  
+
 }
 
 .special_icon{
