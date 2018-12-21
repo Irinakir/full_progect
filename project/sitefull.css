@@ -702,6 +702,9 @@ a.contact{
 }
 
 /**/
+td{
+width:100px;
+}
 .prod_det_box{
   float:left;
   border-left: 1px solid #e0e0eb;
