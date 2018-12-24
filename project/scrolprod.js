@@ -1,4 +1,4 @@
-     console.clear();
+
 const rowsPerPage = 3,
            medalsRowsCol = document.querySelectorAll('.prod'),
       rowsCount = medalsRowsCol.length,
@@ -73,7 +73,7 @@ function fillPagerControlsContent(pagerControlsEl, currentPage, rowsPerPage, row
   pagerListEl.append.apply( pagerListEl, createShownPageLinks(lastPageNumber, currentPage) );
   
   function createShownPageLinks(lastPageNumber, currentPage) {
-    console.log({lastPageNumber, currentPage});
+  
     const result = [
       createPageLinkEl(1, currentPage)
     ];
