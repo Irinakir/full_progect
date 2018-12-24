@@ -1,4 +1,3 @@
-
 const rowsPerPage = 3,
            medalsRowsCol = document.querySelectorAll('.prod'),
       rowsCount = medalsRowsCol.length,
