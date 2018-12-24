@@ -750,6 +750,9 @@ position:relative;
   margin:15px;
 }
 /*Scroll*/
+.pager__info{
+    visibility: hidden;
+}
 
 .pager__controls
 {
