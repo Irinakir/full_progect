@@ -191,6 +191,17 @@ padding:0 15px;
   justify-content:  stretch;
 }
 
+.left_middle-part_flower{
+ /*     width:60%;*/
+  background: linear-gradient(65deg, #fff, #fff2e6);
+ /* border-right:1px #b2b2b2 dashed;*/
+  padding:10px 20px;
+  font-size: 1.2em;
+  display: flex;
+flex-direction:column;
+  /* justify-content: space-between;*/
+  justify-content:  stretch;
+}
 .right_middle-part{
   width:40%;
   padding:10px 20px;
