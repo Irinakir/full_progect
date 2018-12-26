@@ -959,7 +959,7 @@ z-index:250;
     font-size:13px;
   }
 	
-  .new_prod_part a{
+  .new_prod_part{
   text-align: left;
   padding: 0 ;
   margin: 0;	
@@ -993,7 +993,7 @@ z-index:250;
   width:50%;
   }
 	
-  .new_prod_part a{
+  .new_prod_part{
   text-align: left;
   padding: 0 ;
   margin: 0;	
