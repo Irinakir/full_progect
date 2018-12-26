@@ -259,7 +259,7 @@ padding:0px 15px 0 0 ;
 .prod_img_flower{
   float:left;
   padding:10px 20px 0 0;
-  width:40px;
+  width:35px;
   height:auto;
 }
 .prod{
@@ -842,6 +842,7 @@ position:relative;
 
 @media (max-width: 400px){
   .prod_img,
+  .prod_img_flower
   .new_icon,
   .new_prod img,
   .new_prod_part-img,
