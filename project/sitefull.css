@@ -927,7 +927,7 @@ z-index:250;
 
   .new_prod_part-img{
   width:50%;
-  text-align:center;
+  text-align:right;
   justify-content:center; 
   }
 	
@@ -997,7 +997,7 @@ z-index:250;
   
   .new_prod_part-img{
    width:50%;
-  text-align:center;
+  text-align:right;
    justify-content:center; 
   }
 }
