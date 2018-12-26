@@ -976,7 +976,7 @@ z-index:250;
    justify-content: space-between;
   }
   
-  .new_prod_part-img img,
+  .new_prod_part-img,
 	.new_icon{
   width:50%;
   }
