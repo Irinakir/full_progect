@@ -1,8 +1,8 @@
      console.clear();
 const rowsPerPage = 3;
-      medalsRowsCol = document.querySelectorAll('#medals-table tbody tr'),
+      flowerRowsCol = document.querySelectorAll('#flower-table tbody tr'),
 
-      rowsCount = medalsRowsCol.length,
+      rowsCount = flowerRowsCol.length,
       currentPage = 1,
       pagerEl = document.querySelector('.pager'),
       descriptionEl = createPageDescriptionEl(currentPage, rowsPerPage, rowsCount),
@@ -33,13 +33,13 @@ pagerControlsEl.addEventListener('click', function(e) {
 function showOnlyRowsFromPage(currentPage, rowsPerPage) {
   const {from, to} = getRowsForShow(currentPage, rowsPerPage),
         hiddenElCol = document.querySelectorAll(
-          `#medals-table tbody tr:nth-child( -n + ${from - 1}):not(.hidden), #medals-table tbody tr:nth-child(n + ${to + 1}):not(.hidden)`
+          `#flower-table tbody tr:nth-child( -n + ${from - 1}):not(.hidden), #flower-table tbody tr:nth-child(n + ${to + 1}):not(.hidden)`
         ),
         shownElCol = document.querySelectorAll(
-          `#medals-table tbody tr:nth-child(n + ${from}):nth-child(-n + ${to}).hidden`
+          `#flower-table tbody tr:nth-child(n + ${from}):nth-child(-n + ${to}).hidden`
         );
   
-console.log({ hiddenElCol, medalsRowsCol});
+console.log({ hiddenElCol, flowerRowsCol});
   for (let i=0; i < hiddenElCol.length; i++) {
     hiddenElCol[i].classList.add('hidden');
     
@@ -50,7 +50,7 @@ console.log({ hiddenElCol, medalsRowsCol});
   
   }
 
-//   document.querySelectorAll('#medals-table tbody tr:nth-child(-n + 10), #medals-table tbody tr:nth-child(n + 21)')
+//   document.querySelectorAll('#flower-table tbody tr:nth-child(-n + 10), #flower-table tbody tr:nth-child(n + 21)')
 }
 
 function fillPagerControlsContent(pagerControlsEl, currentPage, rowsPerPage, rowsCount) {
