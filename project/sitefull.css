@@ -988,13 +988,11 @@ z-index:250;
    justify-content: space-between;
   }
   
-  .new_prod_part-img{
+  .new_prod_part-img,
+	.new_icon{
   width:55%;
   }
- 
-  .new_icon{
-  width:35%;
-  }
+
 	
   .new_prod_part{
   text-align: left;
