@@ -915,10 +915,8 @@ z-index:250;
   .right_middle-part .new_prod_part-img{
   padding: 0 ;
   margin: 0;
-  text-align:center;
-   justify-content: space-between;
-  /*text-align:left;
-  justify-content: flex-start; */
+  text-align:left;
+  justify-content: flex-start; 
   }
   
   .Promotions .new_prod_part-img{
@@ -927,7 +925,7 @@ z-index:250;
 
   .new_prod_part-img{
   width:50%;
-  text-align:right;
+  text-align:center;
   justify-content: space-between;
   }
 	
@@ -979,10 +977,8 @@ z-index:250;
   width:100%;
   padding: 0 ;
   margin: 0;
-  text-align:center;
-  justify-content: space-between; 
-  /*text-align:left;
-  justify-content: flex-start;*/
+  text-align:left;
+  justify-content: flex-start;
   }
 	
   .thumb{
