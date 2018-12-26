@@ -230,6 +230,9 @@ flex-direction:column;
   margin:20px;
   border-bottom: 1px solid #e5e5e5;
 }
+  #flower-table tr{
+  text-align: center;
+}
 
 .prod_img_flower{
 	  float:left;
