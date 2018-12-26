@@ -265,10 +265,6 @@ padding:0px 15px 0 0 ;
   height:auto;
 }
 
-#flower-table tr {
-  padding:20px;
-}
-
 .new_part_with_prod_flower{
   /* border-right:1px #b2b2b2 dashed;*/
   padding:20px;
@@ -281,14 +277,13 @@ padding:0px 15px 0 0 ;
   height:auto;
 }
 
-#medals-table {
+#flower-table {
   font-size: 15px;
   width: 100%;
   text-align: center;
 }
 
-#medals-table th,
-#medals-table td {
+#flower-table td {
   height:auto;
   border-bottom: 1px solid #e5e5e5;
 }
