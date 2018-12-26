@@ -893,7 +893,6 @@ z-index:250;
   .prod_img,
   .new_icon,
   .new_prod img,
-  .new_prod_part-img,
   .Promotions .new_prod_part-img{
   visibility: hidden;
   padding: 0 ;
@@ -908,8 +907,7 @@ z-index:250;
 
 @media (max-width: 1150px){
   .new_part_with_prod,
-  .new_prod_part-img img,
-    .new_prod img,
+  .new_prod img,
   .right_middle-part,
   .right_middle-part .new_prod_part-img{
   padding: 0 ;
@@ -917,7 +915,11 @@ z-index:250;
   text-align:left;
   justify-content: flex-start; 
   }
- 
+	
+  .new_prod_part-img{
+   width:50%;
+  }
+	
   .language a,
   .language span{
   font-size:0.5em;
