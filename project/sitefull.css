@@ -277,6 +277,18 @@ padding:0px 15px 0 0 ;
   height:auto;
 }
 
+#medals-table {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+#medals-table th,
+#medals-table td {
+  height:auto;
+  border-bottom: 1px solid #e5e5e5;
+}
+
 .prod{
   padding:10px 0 5px 0;
   margin:20px 10px 0 0;
