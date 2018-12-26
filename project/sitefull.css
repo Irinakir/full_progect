@@ -256,6 +256,7 @@ padding:0px 15px 0 0 ;
   width:25%;
   height:auto;
 }
+
 .prod_img_flower{
   float:left;
   padding:10px 20px 0 0;
@@ -263,6 +264,18 @@ padding:0px 15px 0 0 ;
   font-size:12px;
   height:auto;
 }
+
+.new_part_with_prod_flower{
+  /* border-right:1px #b2b2b2 dashed;*/
+  padding:20px;
+  margin:0px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  height:auto;
+}
+
 .prod{
   padding:10px 0 5px 0;
   margin:20px 10px 0 0;
