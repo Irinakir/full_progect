@@ -899,14 +899,14 @@ z-index:250;
   .new_prod_part-img,
   .Promotions .new_prod_part-img{
  /* visibility: hidden;*/
-  width:45%;
+  width:50%;
   padding: 10px ;
   margin: 10px;
   }
   .prod_img_flower{
   padding: 0 ;
   margin: 0;
-  width:45%;  
+  width:55%;  
   }
 
   .new_prod_part{
@@ -990,7 +990,7 @@ z-index:250;
   
   .new_prod_part-img,
 	.new_icon{
-  width:55%;
+  width:60%;
   }
 
 	
