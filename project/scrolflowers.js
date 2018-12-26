@@ -1,6 +1,6 @@
      console.clear();
-const rowsPerPage = 3,
-      medalsRowsCol = document.querySelectorAll('.new_prod_part '),
+const rowsPerPage = 3;
+      medalsRowsCol = document.querySelectorAll('#medals-table tbody tr'),
 
       rowsCount = medalsRowsCol.length,
       currentPage = 1,
@@ -33,10 +33,10 @@ pagerControlsEl.addEventListener('click', function(e) {
 function showOnlyRowsFromPage(currentPage, rowsPerPage) {
   const {from, to} = getRowsForShow(currentPage, rowsPerPage),
         hiddenElCol = document.querySelectorAll(
-          `.new_prod_part:nth-child( -n + ${from - 1}):not(.hidden), .new_prod_part:nth-child(n + ${to + 1}):not(.hidden)`
+          `#medals-table tbody tr:nth-child( -n + ${from - 1}):not(.hidden), #medals-table tbody tr:nth-child(n + ${to + 1}):not(.hidden)`
         ),
         shownElCol = document.querySelectorAll(
-          `.new_prod_part:nth-child(n + ${from}):nth-child(-n + ${to}).hidden`
+          `#medals-table tbody tr:nth-child(n + ${from}):nth-child(-n + ${to}).hidden`
         );
   
 console.log({ hiddenElCol, medalsRowsCol});
