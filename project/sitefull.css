@@ -256,9 +256,9 @@ padding:0px 15px 0 0 ;
   width:25%;
   height:auto;
 }
-prod_img_flower{
-	  float:left;
-  padding:10px 0 0 0;
+.prod_img_flower{
+  float:left;
+  padding:10px 20px 0 0;
   width:15%;
   height:auto;
 }
