@@ -915,9 +915,10 @@ z-index:250;
   .new_prod_part-img img,
   .new_prod_part-img .new_icon ,
   .new_prod img,
+  .new_prod_part a,
   .right_middle-part,
   .right_middle-part .new_prod_part-img{
-  padding: 0 ;
+  padding: 0 0 10px 0;
   margin: 0;
   text-align:left;
   justify-content: flex-start; 
@@ -967,11 +968,11 @@ z-index:250;
 
 @media (max-width: 1550px){
   .product,
-  .new_prod_part,
+  .new_prod_part a,
   .new_prod_part-img img,
   .new_icon{
   width:100%;
-  padding: 0 ;
+  padding: 0 0 10px 0;
   margin: 0;
   text-align:left;
    justify-content: space-between;
