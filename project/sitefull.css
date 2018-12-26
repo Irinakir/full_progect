@@ -909,8 +909,7 @@ z-index:250;
 @media (max-width: 1150px){
   .new_part_with_prod,
   .new_prod_part-img img,
-  .new_prod_part-img .new_icon ,
-  .new_prod img,
+    .new_prod img,
   .right_middle-part,
   .right_middle-part .new_prod_part-img{
   padding: 0 ;
