@@ -915,8 +915,10 @@ z-index:250;
   .right_middle-part .new_prod_part-img{
   padding: 0 ;
   margin: 0;
-  text-align:left;
-  justify-content: flex-start; 
+	    text-align:center;
+  justify-content:center; 
+  /*text-align:left;
+  justify-content: flex-start; */
   }
   
   .Promotions .new_prod_part-img{
