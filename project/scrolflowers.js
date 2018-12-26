@@ -1,5 +1,7 @@
+     console.clear();
 const rowsPerPage = 3,
-           medalsRowsCol = document.querySelectorAll('.new_part_with_prod'),
+      medalsRowsCol = document.querySelectorAll('.new_prod_part '),
+
       rowsCount = medalsRowsCol.length,
       currentPage = 1,
       pagerEl = document.querySelector('.pager'),
@@ -31,18 +33,21 @@ pagerControlsEl.addEventListener('click', function(e) {
 function showOnlyRowsFromPage(currentPage, rowsPerPage) {
   const {from, to} = getRowsForShow(currentPage, rowsPerPage),
         hiddenElCol = document.querySelectorAll(
-          `.new_part_with_prod:nth-child(-n + ${from - 1}):not(.hidden), .new_part_with_prod:nth-child(n + ${to + 1}):not(.hidden)`
+          `.new_prod_part:nth-child( -n + ${from - 1}):not(.hidden), .new_prod_part:nth-child(n + ${to + 1}):not(.hidden)`
         ),
         shownElCol = document.querySelectorAll(
-          `.new_part_with_prod:nth-child(n + ${from}):nth-child(-n + ${to}).hidden`
+          `.new_prod_part:nth-child(n + ${from}):nth-child(-n + ${to}).hidden`
         );
   
+console.log({ hiddenElCol, medalsRowsCol});
   for (let i=0; i < hiddenElCol.length; i++) {
     hiddenElCol[i].classList.add('hidden');
+    
   }
 
   for (let i=0; i < shownElCol.length; i++) {
     shownElCol[i].classList.remove('hidden');
+  
   }
 
 //   document.querySelectorAll('#medals-table tbody tr:nth-child(-n + 10), #medals-table tbody tr:nth-child(n + 21)')
@@ -72,7 +77,8 @@ function fillPagerControlsContent(pagerControlsEl, currentPage, rowsPerPage, row
   pagerListEl.append.apply( pagerListEl, createShownPageLinks(lastPageNumber, currentPage) );
   
   function createShownPageLinks(lastPageNumber, currentPage) {
-  
+    console.log({lastPageNumber, currentPage, rowsCount,rowsPerPage })
+                
     const result = [
       createPageLinkEl(1, currentPage)
     ];
@@ -126,7 +132,9 @@ function getRowsForShow(currentPage, rowsPerPage) {
   return {
     from: currentPage*rowsPerPage - rowsPerPage + 1,
     to: currentPage*rowsPerPage
+   
   }
+
 }
 
 function getPageDescriptionText(currentPage, rowsPerPage, rowsCount) {
@@ -165,3 +173,4 @@ function createPageLinkEl(pageCount, currentPage, linkDesc, className = 'pager__
   
   return linkEl;
 }
+
