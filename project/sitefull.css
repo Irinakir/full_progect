@@ -904,7 +904,7 @@ z-index:250;
   .prod_img_flower{
   padding: 0 ;
   margin: 0;
-    width:10px;
+  width:10px;
   }
 }
 
@@ -915,7 +915,7 @@ z-index:250;
   .right_middle-part .new_prod_part-img{
   padding: 0 ;
   margin: 0;
-	    text-align:center;
+  text-align:center;
   justify-content:center; 
   /*text-align:left;
   justify-content: flex-start; */
@@ -979,8 +979,10 @@ z-index:250;
   width:100%;
   padding: 0 ;
   margin: 0;
-  text-align:left;
-  justify-content: flex-start;
+  text-align:center;
+  justify-content:center; 
+  /*text-align:left;
+  justify-content: flex-start;*/
   }
 	
   .thumb{
@@ -993,11 +995,9 @@ z-index:250;
    width:90%;
    }	
   
-	tr .new_prod_part-img{
-		   text-align:center;
-   justify-content:center; 
-	}
   .new_prod_part-img{
    width:50%;
+  text-align:center;
+   justify-content:center; 
   }
 }
