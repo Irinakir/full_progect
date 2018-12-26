@@ -919,9 +919,13 @@ z-index:250;
   .Promotions .new_prod_part-img{
   width:90%;
   }
+
+  .Promotions .new_prod_part-img{
+  width:50%;
+  }
 	
-  .new_prod_part-img,
-	.Promotions .new_prod_part-img{
+  .new_prod_part-img{
+   text-align:center;
    width:50%;
   }
 	
@@ -987,5 +991,6 @@ z-index:250;
    }	
   .new_prod_part-img{
    width:50%;
+   text-align:center;
   }
 }
