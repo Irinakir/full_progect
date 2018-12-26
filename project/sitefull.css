@@ -967,7 +967,8 @@ z-index:250;
 
 @media (max-width: 1550px){
   .product,
-  .new_prod_part-img img{
+  .new_prod_part-img img,
+	.new_icon{
   width:100%;
   padding: 0 ;
   margin: 0;
@@ -975,7 +976,8 @@ z-index:250;
    justify-content: space-between;
   }
   
-  .new_prod_part-img img{
+  .new_prod_part-img img,
+	.new_icon,{
   width:50%;
   }
 	
