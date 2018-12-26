@@ -916,7 +916,7 @@ z-index:250;
   padding: 0 ;
   margin: 0;
   text-align:center;
-  justify-content:center; 
+   justify-content: space-between;
   /*text-align:left;
   justify-content: flex-start; */
   }
@@ -928,7 +928,7 @@ z-index:250;
   .new_prod_part-img{
   width:50%;
   text-align:right;
-  justify-content:center; 
+  justify-content: space-between;
   }
 	
 	
@@ -980,7 +980,7 @@ z-index:250;
   padding: 0 ;
   margin: 0;
   text-align:center;
-  justify-content:center; 
+  justify-content: space-between; 
   /*text-align:left;
   justify-content: flex-start;*/
   }
@@ -997,7 +997,7 @@ z-index:250;
   
   .new_prod_part-img{
    width:50%;
-  text-align:right;
-   justify-content:center; 
+   text-align:center;
+   justify-content: space-between;
   }
 }
