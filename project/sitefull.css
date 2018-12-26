@@ -170,10 +170,7 @@ padding:0 15px;
   border-radius: 5px;
   color:#fff;
 }
-#flower-table tr {
-  padding:20px;
-  margin:20px;
-}
+
 .middle_part{
   grid-area: middle_part;
   background: white; 
@@ -229,6 +226,8 @@ flex-direction:column;
 
 #flower-table td {
   height:auto;
+  padding:20px;
+  margin:20px;
   border-bottom: 1px solid #e5e5e5;
 }
 
