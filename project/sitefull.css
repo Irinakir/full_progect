@@ -322,7 +322,7 @@ padding:2px 2px 0 2px;
 .zoom_img{
     display: flex;
   flex-direction:column;
-  justify-content:  stretch;
+  justify-content:  center;
 }
 
 .prod_price{
@@ -357,16 +357,14 @@ padding:0 0 25px 0;
 }
 
 .prod_img_bg_zoom{  
-  float:left;
   padding:10px 20px 0 0;
-  width:60%;
+  width:100%;
   height:auto;
 }
 
 .prod_img_zoom{  
-  float:left;
   padding:10px 20px 0 0;
-  width:40%;
+  width:45%;
   height:auto;
 }
 ul.demolayout a {
