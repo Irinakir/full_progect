@@ -346,7 +346,6 @@ padding:0px 15px 0 0 ;
   
 }
 
-.new_part_with_prod,
 .new_prod{
   padding:10px
 }
@@ -567,7 +566,7 @@ img .about{
 
 .Promotions .new_part_with_prod{
   clear:both;
-  padding:0;  
+  padding:10px;  
   margin:0px;
   text-align:center;
 }
