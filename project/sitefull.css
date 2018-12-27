@@ -323,6 +323,8 @@ padding:2px 2px 0 2px;
     display: flex;
   flex-direction:column;
   justify-content:  center;
+  text-align: right;
+  align-items:center;
 }
 
 .prod_price{
