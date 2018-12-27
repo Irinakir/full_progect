@@ -929,7 +929,7 @@ z-index:250;
   .new_prod img,
   .right_middle-part,
   .right_middle-part .new_prod_part-img{
-  padding: 0 0 10px 0;
+  padding: 0;
   margin: 0;
   text-align:left;
   justify-content: flex-start; 
@@ -988,7 +988,7 @@ z-index:250;
   .new_prod_part-img img,
   .new_icon{
   width:100%;
-  padding: 0 0 10px 0;
+  padding: 0;
   margin: 0;
   text-align:center;
    justify-content: space-between;
