@@ -303,6 +303,38 @@ flex-direction:column;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 12px;
 }
 
+.prod_text_middle_price{
+ font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 20px;
+}
+span.red{
+color:#990000;
+}
+.price{
+font-size:14px;
+padding:0 0 0 15px;
+margin:2px 0 5px 0;
+}
+span.colors{
+padding:2px 2px 0 2px;
+}
+
+.zoom_img{
+    display: flex;
+  flex-direction:column;
+  justify-content:  stretch;
+}
+
+.prod_price{
+  padding:20px 20px 20px 0;
+  margin:20px 10px 0 30px;
+   display: flex;
+  flex-direction:row;
+  justify-content:  stretch;
+}
+
+
+
 .more{
 color:#ac3939;
 float:right;
