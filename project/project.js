@@ -35,6 +35,6 @@ $(".new_prod_part-img").on('click', function() {
   var x=false
   function imgchange(obj,imgY) {
    if  (x){
-   obj.src=imgX
+   obj.src=imgY
    } 
  }
