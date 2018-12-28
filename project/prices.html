@@ -62,14 +62,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
      
  </div>
    
-   <div id="demo" class="demolayout">
-        <ul id="demo-nav" class="demolayout">
-          <li><a class="active" href="#tab1">More details</a></li>
-          <li><a class="" href="#tab2">Related Products</a></li>
-        </ul>
-        <div class="tabs-container">
-          <div style="display: block;" class="tab" id="tab1">
-            <p class="prod_text_middle_price">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+    <div class="tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1" title="More details">More details</label>
+ 
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2" title="Related products">Related products</label>
+ 
+ 
+    <section id="content-tab1">
+  <p class="prod_text_middle_price">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
             <ul class="list">
               <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
               <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
@@ -77,10 +79,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
               <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
             </ul>
             <p class="prod_text_middle_price">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-          </div>
-          <div style="display: none;" class="tab" id="tab2">
-            
-            <table cellpadding="0" cellspacing="0" id="flower-table">
+    </section>  
+    <section id="content-tab2">
+        <p>
+              <table cellpadding="0" cellspacing="0" id="flower-table">
   <tbody>
     <tr>
       <td>
@@ -252,7 +254,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </tr>
   </tbody>
     </table>
-            <section class="pager">
+                <section class="pager">
           <div class="pager__info">
     Show 1 to 10 of 150 rows
   </div>
@@ -260,16 +262,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
             <a class="pager__prev">
                 Previous
             </a>
+ 
             <a href="#" class="pager__next">
                 Next
             </a>
         </div>
       </section>
-   </div>
-     </div>
-       
-      </div>
-   
+        </p>
+    </section> 
+  
+</div>
      
    
  </div>
