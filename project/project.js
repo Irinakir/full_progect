@@ -32,10 +32,3 @@ $(".new_prod_part-img").on('click', function() {
  
 });
 
-  var x=false
-  function imgchange(obj,imgX) {
-   if  (x){
-   obj.src=imgX
-   } 
-
- }
