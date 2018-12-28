@@ -32,7 +32,7 @@ $(".new_prod_part-img").on('click', function() {
  
 });
 
-function newMyWindow(e) {
+function imgchange(e) {
   var h = 500,
       w = 500;
   window.open(e, '', 'scrollbars=1,height='+Math.min(h, screen.availHeight)+',width='+Math.min(w, screen.availWidth)+',left='+Math.max(0, (screen.availWidth - w)/2)+',top='+Math.max(0, (screen.availHeight - h)/2));
