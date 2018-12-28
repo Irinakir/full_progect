@@ -33,16 +33,6 @@ $(".new_prod_part-img").on('click', function() {
 });
 
   
-  $(".prod_img_zoom").click(ZoomIn());
-
-function ZoomIn (event) {
-
-    $(".prod_img_bg_zoom").width(
-        $(".prod_img_bg_zoom").width() * 1.2
-    );
-
-    $(".prod_img_bg_zoom").height(
-        $(".prod_img_bg_zoom").height() * 1.2
-    );
-},
-
+ function l_image (a) {
+    document.example_img.src=a
+}
