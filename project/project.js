@@ -32,5 +32,5 @@ $(".new_prod_part-img").on('click', function() {
  
 });
 $('.prod_img_zoom').click(function(){
-  $(".prod_img_bg_zoo").fadeToggle(100);
+  $(".prod_img_bg_zoom").fadeToggle(100);
 });  
