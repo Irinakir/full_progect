@@ -32,3 +32,20 @@ $(".new_prod_part-img").on('click', function() {
  
 });
 
+  var x=false
+  function imgchange(obj,imgX,imgY) {
+   if  (x){
+ 
+       $('#popup-container').css('display', 'flex'),  
+         obj.src=imgX;
+  });
+  $('#popup-container').click(function(e){
+    if(this===e.target){
+    $('#popup-container').css('display', 'none');
+    }
+    });
+   } else {
+   obj.src=imgY
+   }
+  x=!x
+ }
