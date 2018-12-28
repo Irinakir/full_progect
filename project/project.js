@@ -43,8 +43,8 @@ $(".new_prod_part-img").on('click', function() {
 
 $(document).ready(function() { // Ждём загрузки страницы
 	
-	$(".prod_img_bg_zoom").click(function(){	// Событие клика на маленькое изображение
-	  	var img = $(this);	// Получаем изображение, на которое кликнули
+	$(".prod_img_zoom").click(function(){	// Событие клика на маленькое изображение
+	  	var img = (".prod_img_bg_zoom");	// Получаем изображение, на которое кликнули
 		var src = img.attr('src'); // Достаем из этого изображения путь до картинки
 		$("body").append("<div class='popup'>"+ //Добавляем в тело документа разметку всплывающего окна
 						 "<div class='popup_bg'></div>"+ // Блок, который будет служить фоном затемненным
