@@ -32,6 +32,16 @@ $(".new_prod_part-img").on('click', function() {
  
 });
 $('.prod_img_zoom').click(function(){
-  $('#popup-container').css('display', 'flex'),
-  $(".prod_img_bg_zoom").fadeToggle(100);
+
+  myfile.onchange = function() {
+    if (this.files && this.files[0]) {
+        var reader=new FileReader();
+        reader.onload = function(e){
+            prod_img_bg_zoom.src = e.target.result;
+        };
+        reader.readAsDataURL(this.files[0]);
+    };
+};
+  
+  
 });  
