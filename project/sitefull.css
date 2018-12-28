@@ -1027,6 +1027,14 @@ z-index:250;
   text-align:left;
   justify-content: flex-start; 
   }
+
+  .prod_text_middle_price{
+  font-size:16px;
+  }
+
+  div.demolayout {
+  font-size:17px;
+  }
  
   .language a,
   .language span{
@@ -1074,6 +1082,14 @@ z-index:250;
    /*visibility: hidden;*/
    width:60px;
  }
+	
+  .prod_text_middle_price{
+  font-size:12px;
+  }
+	
+  div.demolayout {
+  font-size:14px;
+  }
 }
 
 @media (max-width: 1550px){
