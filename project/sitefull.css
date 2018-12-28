@@ -433,6 +433,25 @@ padding:2px 2px 0 2px;
 * и оставляем иконки на малых экранах
 */
  
+ul.list{
+clear:both;
+padding:10px 0 0 20px;
+margin:0px;
+}
+ul.list li{
+  list-style:none;
+  text-decoration:underline;
+
+}
+  ul.list li a{
+  list-style:none;
+  color:#000000;
+  padding:0 0 0 20px;
+}
+  ul.list li a:hover{
+  text-decoration:underline;
+}
+
 @media screen and (max-width: 680px) {
 	.tabs>label {
 		font-size: 0;
@@ -451,8 +470,9 @@ padding:2px 2px 0 2px;
 	}
 } 
 
-/**/
 
+
+/**/
 
 .more{
 color:#ac3939;
