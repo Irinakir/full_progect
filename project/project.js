@@ -44,8 +44,5 @@ $(".new_prod_part-img").on('click', function() {
     $('#popup-container').css('display', 'none');
     }
     });
-   } else {
-   obj.src=imgY
-   }
-  x=!x
+   } 
  }
