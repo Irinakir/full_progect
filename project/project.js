@@ -38,7 +38,7 @@ $(".new_prod_part-img").on('click', function() {
 function ZoomIn (event) {
 
     $(".prod_img_bg_zoom").width(
-        $("юprod_img_bg_zoom").width() * 1.2
+        $(".prod_img_bg_zoom").width() * 1.2
     );
 
     $(".prod_img_bg_zoom").height(
