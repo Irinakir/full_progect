@@ -344,7 +344,7 @@ padding:2px 2px 0 2px;
 
 .popup {
 	position: absolute;
-	height:100%;
+	height:150%;
 	width:100%;
 	top:0;
 	left:0;
@@ -372,6 +372,7 @@ padding:2px 2px 0 2px;
 	top: 50%;
 	transform: translate(-50%,-50%);
 	max-height: 90%;
+	width:110%;
 }
 
 .popup_img {
