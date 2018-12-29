@@ -337,10 +337,15 @@ padding:2px 2px 0 2px;
 
 
 /*zoom*/
-.image_zoom {
+.button_zoom{
 	margin:30px;
+	cursor: -webkit-zoom-in;
 	cursor:zoom-in;
 	 outline: none;
+}
+.image_zoom {
+	margin:30px;
+        outline: none;
 }
 
 .popup {
