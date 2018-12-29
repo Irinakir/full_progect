@@ -390,8 +390,8 @@ padding:2px 2px 0 2px;
 /*-cart_table-*/
 .cart_table{
   width:80%;
-  border:1px #e6b3b3 solid;
-  text-align:center;
+  border: 1px #CCCCCC solid;
+  text-align: center;
   padding: 10px;
   margin: 30px;
 }
