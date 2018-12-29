@@ -420,12 +420,13 @@ a.checkout{
   height:25px;
   display:block;
   float:right;
-      margin: 30px 0 0 30px;
+  margin: 30px 0 0 30px;
   text-decoration:none;
   text-align:center;
   line-height:25px;
   background: #990000;
   color:#fff;
+  border-radius:15px;
 }
 
 a.continue{
@@ -437,8 +438,9 @@ a.continue{
   text-decoration:none;
   text-align:center;
   line-height:25px;
-	background: #990000;
+  background: #990000;
   color:#fff;
+  border-radius:15px;
 }
 /*---*/
 
