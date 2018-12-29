@@ -426,7 +426,7 @@ a.checkout{
   line-height:25px;
   background: #990000;
   color:#fff;
-  border-radius:15px;
+  border-radius: 10px;
 }
 
 a.continue{
@@ -440,7 +440,7 @@ a.continue{
   line-height:25px;
   background: #990000;
   color:#fff;
-  border-radius:15px;
+  border-radius: 10px;
 }
 /*---*/
 
