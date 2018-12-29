@@ -337,9 +337,10 @@ padding:2px 2px 0 2px;
 
 
 /*zoom*/
-.image {
+.image_zoom {
 	margin:30px;
 	cursor:zoom-in;
+	 outline: none;
 }
 
 .popup {
@@ -361,7 +362,7 @@ padding:2px 2px 0 2px;
 	bottom: 0;
 	right: 0;
 	width: auto;
-  height: auto;
+        height: auto;
 }
 
 
@@ -372,7 +373,7 @@ padding:2px 2px 0 2px;
 	top: 50%;
 	transform: translate(-50%,-50%);
 	max-height: 90%;
-	width:110%;
+	
 }
 
 .popup_img {
