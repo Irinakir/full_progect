@@ -423,6 +423,7 @@ a.checkout{
   text-decoration:none;
   text-align:center;
   line-height:25px;
+  background: #990000;
   color:#fff;
 }
 
@@ -435,6 +436,7 @@ a.continue{
   text-decoration:none;
   text-align:center;
   line-height:25px;
+	background: #990000;
   color:#fff;
 }
 /*---*/
