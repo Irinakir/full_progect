@@ -387,6 +387,29 @@ padding:2px 2px 0 2px;
 
 /**/
 
+/*-cart_table-*/
+.cart_table{
+width:440px;
+border:1px #CCCCCC solid;
+text-align:center;
+}
+tr.cart_title{
+background-color:#DFDFDF;
+}
+td{
+padding:3px;
+}
+td.cart_total{
+text-align:right;
+padding:5px 15px 5px 0;
+}
+img.cart_thumb{
+border:1px #b2b2b2 solid;
+padding:2px;
+}
+/*---*/
+
+
 /*tabs*/
 
 .tabs {
