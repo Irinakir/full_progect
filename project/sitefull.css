@@ -420,7 +420,7 @@ a.checkout{
   height:25px;
   display:block;
   float:right;
-  margin:10px 30px 0 10px;
+      margin: 30px 0 0 30px;
   text-decoration:none;
   text-align:center;
   line-height:25px;
@@ -433,7 +433,7 @@ a.continue{
   height:25px;
   display:block;
   float:left;
-  margin:10px 0 0 0px;
+  margin: 30px 80px 0 0;
   text-decoration:none;
   text-align:center;
   line-height:25px;
