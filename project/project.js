@@ -17,10 +17,12 @@ function Slider(params = {}) {
     fillSliderContent(targetEl) ;
   }
   
-  function closeSlider(){
+  function closeSlider(e){
+    if(e.target===e.currentTarget){
         sliderEl.classList.remove('slider--active');
     
     sliderBodyEl.innerText='' ;
+  }
   }
   
   function fillSliderContent(targetEl){
@@ -84,7 +86,6 @@ Slider({
   containerSelector: '.slider',
    tagetSelector: '[data-type="slide"]'
 });
-
 
 
 
