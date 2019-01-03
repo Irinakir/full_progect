@@ -9,11 +9,18 @@ function Slider(params = {}) {
 
 
  window.addEventListener('click', openSliderByClick);
-    
+  sliderEl. addEventListener('click, closeSlider');
+  
   function openSlider(targetEl){
     sliderEl.classList.add('slider--active');
     
     fillSliderContent(targetEl) ;
+  }
+  
+  function closeSlider(){
+        sliderEl.classList.remove('slider--active');
+    
+    sliderBodyEl.innerText='' ;
   }
   
   function fillSliderContent(targetEl){
@@ -77,6 +84,8 @@ Slider({
   containerSelector: '.slider',
    tagetSelector: '[data-type="slide"]'
 });
+
+
 
 
 $(document).ready(function() { // Ждём загрузки страницы
