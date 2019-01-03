@@ -1,20 +1,42 @@
 function Slider(params = {}) {
   const{
     containerSelector='.slider',
+    bodySelector='.slider__wrapper',
     tagetSelector='img'
   }=params,
-        sliderEl=document.querySelector(containerSelector) || createSliderEl();
+        sliderEl=document.querySelector(containerSelector) || createSliderEl(),
+        sliderBodyEl=sliderEl.querySelector(bodySelector);
 
 
  window.addEventListener('click', openSliderByClick);
     
   function openSlider(targetEl){
     sliderEl.classList.add('slider--active');
+    
+    fillSliderContent(targetEl) ;
   }
+  
+  function fillSliderContent(targetEl){
+    const imgSrc=targetEl.getAttribute('src'),
+          altText=targetEl.getAttribute('alt');
+    slideEl = createSlide(imgSrc, altText);
+    SlideBodyEl.append(SlideEl);
+    
+  }
+  function creatSlide(imgSrc, altText=''){
+    const slideEl = document.createElement('li'),   
+     imgEl=document.createElement('img');
+    
+    slideEl.classList.add('slider__item');
+    slideEl.append(imgEl);
+    imgEl.setAttribut('src', imgSrc);
+    imgEl.setAttribut('alt', altText);
+    
+  return slideEl;}
   
   function createSliderEl(){
          const sliderEl= document.createElement('div'),
-              sliderViewboxEl= document.createElement('div');
+              sliderViewboxEl= document.createElement('div'),
     sliderWrapperEl = document.createElement('ul'),
           sliderTapeEl = document.createElement('div'),
           sliderNext = document.createElement('button'),
