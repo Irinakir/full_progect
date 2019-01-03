@@ -361,7 +361,8 @@ padding:2px 2px 0 2px;
 .popup_bg {
 	background:rgba(0,0,0,0.3);
 	position:fixed;
-	z-index:50;
+	z-
+	:50;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -1219,6 +1220,7 @@ z-index:30;
   height: 100%;
   list-style: none;
   transition: transform .4s ease-in 0s;
+	
 }
 
 .slider__item
@@ -1283,6 +1285,7 @@ z-index:30;
   padding: 0;
   overflow: hidden;
   display: block;
+	 z-index:300;
 }
 
 /*end slider*/
