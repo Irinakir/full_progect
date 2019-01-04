@@ -1,52 +1,54 @@
 function Slider(params = {}) {
   const{
-    containerSelector='.slider',
-    bodySelector='.slider__wrapper',
-    tagetSelector='img'
+    containerSelector = '.slider',
+    bodySelector = '.slider__wrapper',
+    tagetSelector = 'img'
   }=params,
-        sliderEl=document.querySelector(containerSelector) || createSliderEl(),
-        sliderBodyEl=sliderEl.querySelector(bodySelector);
+    sliderEl = document.querySelector(containerSelector) || createSliderEl(),
+    sliderBodyEl = sliderEl.querySelector(bodySelector);
 
 
- window.addEventListener('click', openSliderByClick);
-  sliderEl. addEventListener('click, closeSlider');
+  window.addEventListener('click', openSliderByCLick);
   
-  function openSlider(targetEl){
-    sliderEl.classList.add('slider--active');
+  sliderEl.addEventListener('click', closeSlider);
+  
+  function openSlider(targetEl) {
+     sliderEl.classList.add('slider--active');
     
-    fillSliderContent(targetEl) ;
+     fillSliderContent(targetCol);
   }
   
-  function closeSlider(e){
-    if(e.target===e.currentTarget){
-        sliderEl.classList.remove('slider--active');
-    
-    sliderBodyEl.innerText='' ;
-  }
+  function closeSlider(e) {
+    if (e.target === e.currentTarget) {
+      sliderEl.classList.remove('slider--active');
+
+      sliderBodyEl.innerText = '';
+    }
   }
   
   function fillSliderContent(targetEl){
-    const imgSrc=targetEl.getAttribute('src'),
-          altText=targetEl.getAttribute('alt');
+    const imgSrc  = targetEl.getAttribute('src'),
+          altText = targetEl.getAttribute('alt');
     slideEl = createSlide(imgSrc, altText);
-    SliderBodyEl.append(SlideEl);
+    sliderBodyEl.append(SlideEl);
     
   }
   function creatSlide(imgSrc, altText=''){
-    const slideEl = document.createElement('li'),   
-     imgEl=document.createElement('img');
+    const slideEl = document.createElement('li'),
+          imgEl = document.createElement('img');
     
     slideEl.classList.add('slider__item');
     slideEl.append(imgEl);
-    imgEl.setAttribut('src', imgSrc);
-    imgEl.setAttribut('alt', altText);
+    
+    imgEl.setAttribute('src', imgSrc);
+    imgEl.setAttribute('alt', altText);
     
   return slideEl;}
   
   function createSliderEl(){
-         const sliderEl= document.createElement('div'),
-              sliderViewboxEl= document.createElement('div'),
-    sliderWrapperEl = document.createElement('ul'),
+    const sliderEl = document.createElement('div'),
+          sliderViewboxEl = document.createElement('div'),
+          sliderWrapperEl = document.createElement('ul'),
           sliderTapeEl = document.createElement('div'),
           sliderNext = document.createElement('button'),
           sliderPrev = document.createElement('button');
@@ -72,19 +74,20 @@ function Slider(params = {}) {
   
   
  
-  function openSliderByClick(e){
-    const targetEl=e.target.closest(tagetSelector);
- if (targetEl){
-   e.preventDefault();
-   openSlider(targetEl);
- }
+  function openSliderByCLick(e) {
+    const targetEl = e.target.closest(tagetSelector);
+    
+    if (targetEl) {
+      e.preventDefault();
+      openSlider(targetEl);
+    }
     
   }
 }
 
 Slider({
   containerSelector: '.slider',
-   tagetSelector: '[data-type="slide"]'
+  tagetSelector: '[data-type="slide"]'
 });
 
 
