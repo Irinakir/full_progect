@@ -44,30 +44,33 @@ function Slider(params = {}) {
     
     imgEl.setAttribute('src', imgSrc);
     imgEl.setAttribute('alt', altText);
+   
     
+	  
+    sliderEl.append(sliderViewboxEl);
+ 
+    sliderViewboxEl.append(sliderBuy);
+    
+    document.body.append(sliderEl);
+	  
   return slideEl;}
   
   function createSliderEl(){
     const sliderEl = document.createElement('div'),
           sliderViewboxEl = document.createElement('div'),
+	  sliderBuy = document.createElement('a'),
           sliderWrapperEl = document.createElement('ul'),
-          sliderTapeEl = document.createElement('div'),
-          sliderNext = document.createElement('button'),
-          sliderPrev = document.createElement('button');
+          sliderTapeEl = document.createElement('div');
     
     sliderEl.classList.add('slider');
     sliderViewboxEl.classList.add('slider__viewbox');
     sliderWrapperEl.classList.add('slider__wrapper');
-    sliderNext.classList.add('slider__next');
-    sliderPrev.classList.add('slider__prev');
-    sliderTapeEl.classList.add('slider__tape');
-    
-    sliderNext.innerText = 'Next';
-    sliderPrev.innerText = 'Prev';
+    sliderBuy.classList.add('slider__buy');
+    sliderBuy.innerText = 'Купить';
+  
     
     sliderEl.append(sliderViewboxEl);
-    sliderTapeEl.append(sliderWrapperEl);
-    sliderViewboxEl.append(sliderTapeEl, sliderNext, sliderPrev);
+    sliderViewboxEl.append(sliderBuy);
     
     document.body.append(sliderEl);
     
