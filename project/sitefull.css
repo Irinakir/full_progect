@@ -1189,6 +1189,7 @@ z-index:30;
     box-sizing: border-box;
   /*  margin: 20px auto;*/
     margin: 35px ;
+	 padding: 0;
 }
 
 .calendar ul {
