@@ -190,7 +190,7 @@ function Calendar(startMonth, startYear) {
         startDay = new Date(currentYear, currentMonth + shiftLength, 1);
         currentMonth = startDay.getMonth();
         currentYear = startDay.getFullYear();
-      shiftLength.preventDefault();
+      shiftMonth.preventDefault();
         render();
     }
   
