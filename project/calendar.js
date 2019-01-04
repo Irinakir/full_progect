@@ -261,5 +261,5 @@ function Calendar(startMonth, startYear) {
 
 // render component Calendar in document
 contentEl.append( calendarComponent.render());
-document.body.append( todoComponent.render() );
+//document.body.append( todoComponent.render() );
 
