@@ -1189,11 +1189,13 @@ z-index:30;
   background: rgba(0, 0, 0, .5);
   top: 0;
   left: 0;
+
 }
 
 .slider--active
 {
   display: block;
+	 z-index:300;
 }
 
 .slider__viewbox
