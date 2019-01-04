@@ -45,13 +45,6 @@ function Slider(params = {}) {
     imgEl.setAttribute('src', imgSrc);
     imgEl.setAttribute('alt', altText);
    
-    
-	  
-    sliderEl.append(sliderViewboxEl);
- 
-    sliderViewboxEl.append(sliderBuy);
-    
-    document.body.append(sliderEl);
 	  
   return slideEl;}
   
