@@ -1209,7 +1209,7 @@ z-index:30;
   background: #fff;
   position: absolute;
   top: 10%;
-  left: 10%;
+  justify-content: center;
 	backgroung:red;
   /*z-index:300;*/
 }
