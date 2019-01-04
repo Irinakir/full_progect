@@ -30,7 +30,7 @@ function Slider(params = {}) {
     const imgSrc  = targetEl.getAttribute('src'),
           altText = targetEl.getAttribute('alt');
     slideEl = createSlide(imgSrc, altText);
-    sliderBodyEl.append(SlideEl);
+    sliderBodyEl.append(slideEl);
     
   }
   function creatSlide(imgSrc, altText=''){
