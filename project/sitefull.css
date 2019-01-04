@@ -1202,15 +1202,16 @@ z-index:30;
 {
   display: block;
   box-sizing: border-box;
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   padding: 20px;
   border-radius: 20px;
   background: #fff;
   position: absolute;
   top: 10%;
   left: 10%;
-  z-index:300;
+	backgroung:red;
+  /*z-index:300;*/
 }
 
 .slider__wrapper
