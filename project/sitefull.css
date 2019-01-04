@@ -1202,14 +1202,14 @@ z-index:30;
 {
   display: block;
   box-sizing: border-box;
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   padding: 20px;
   border-radius: 20px;
   background: #fff;
   position: absolute;
-  top: 20%;
-  left:25%;
+  top: 30%;
+  left:32%;
 }
 
 .slider__wrapper
@@ -1247,7 +1247,7 @@ z-index:30;
   margin: 0;
   padding: 10px 30px;
   background: rgba(255, 255, 255, .5);
-}*/
+}
 
 .slider__next,
 .slider__prev
@@ -1277,7 +1277,7 @@ z-index:30;
 {
   left: 0;
 }
-
+*/
 .slider__tape
 {
   width: 100%;
