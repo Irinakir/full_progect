@@ -160,13 +160,11 @@ function Calendar(startMonth, startYear) {
     calendarControlsEl.classList.add('calendar-controls');
     calendarWeekdaysEl.classList.add('calendar-weekdays');
     calendarDaysEl.classList.add('calendar-days');
-     calendarPrevLinkEl.preventDefault();
     calendarPrevLinkEl.classList.add('calendar__prev-month');
     calendarPrevLinkEl.innerText = '<';
     calendarPrevLinkEl.setAttribute('href', "#");
     calendarPrevLinkEl.addEventListener('click', goPrevMonth);
   
-   calendarNextLinkEl.preventDefault();
     calendarNextLinkEl.classList.add('calendar__next-month');
     calendarNextLinkEl.innerText = '>';
     calendarNextLinkEl.setAttribute('href', "#");
@@ -186,7 +184,7 @@ function Calendar(startMonth, startYear) {
     );
     
     calendarControlsEl.append(calendarPrevLinkEl, calendarTitleEl, calendarNextLinkEl);
-    
+    calendarEl.preventDefault();
     calendarEl.append(calendarControlsEl, calendarWeekdaysEl, calendarDaysEl);
   
     function shiftMonth(shiftLength) {
