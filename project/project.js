@@ -15,7 +15,7 @@ function Slider(params = {}) {
   function openSlider(targetEl) {
      sliderEl.classList.add('slider--active');
     
-     fillSliderContent(targetCol);
+     fillSliderContent(targetEl);
   }
   
   function closeSlider(e) {
