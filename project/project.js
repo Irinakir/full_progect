@@ -33,7 +33,7 @@ function Slider(params = {}) {
     sliderBodyEl.append(slideEl);
     
   }
-  function creatSlide(imgSrc, altText=''){
+  function createSlide(imgSrc, altText=''){
     const slideEl = document.createElement('li'),
           imgEl = document.createElement('img');
     
