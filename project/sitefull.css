@@ -1293,8 +1293,8 @@ z-index:30;
   border-radius: 20px;
   background: #fff;
   position: absolute;
-  top: 25%;
-  left:25%;
+  top: 35%;
+  left:35%;
 	  justify-content: center; 
   align-items: center;
 }
@@ -1323,7 +1323,7 @@ z-index:30;
 
 .slider__item img
 {
-  width: 70%;
+  width: 150%;
 
  /* height: 50%;*/
   padding: 0 30px 0 0;
