@@ -194,7 +194,8 @@ function Calendar(startMonth, startYear) {
     }
   
     function getMonthDays( year, month ) {
-      getMonthDays.preventDefault();
+      year.preventDefault();
+      month.preventDefault();
         const firstDayInMonth = new Date(year, month, 1),
            firstWeekDayInMonth = (6 + firstDayInMonth.getDay())%7,
            lastDayInMont = new Date(year, month + 1, 0),
