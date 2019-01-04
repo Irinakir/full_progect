@@ -1228,6 +1228,8 @@ z-index:30;
 {
   position: relative;
   flex: 0 0 100%;
+  justify-content: center; 
+  align-items: center;
   overflow: hidden;
   border-radius: 10px;
 }
