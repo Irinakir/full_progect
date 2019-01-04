@@ -153,8 +153,19 @@ function Calendar(startMonth, startYear) {
             'Ноябрь',
             'Декабрь'
           ],
-          goPrevMonth = shiftMonth.bind(this, -1),
-          goNextMonth = shiftMonth.bind(this, 1);
+          
+          goPrevMonth = e => {
+          e.preventDefault();
+         shiftMonth(-1);
+            },
+  
+         goNextMonth = e => {
+          e.preventDefault();
+         shiftMonth(1);
+            };
+       //   goPrevMonth = shiftMonth.bind(this, -1),
+         // goNextMonth = shiftMonth.bind(this, 1);
+        
         
     calendarEl.classList.add('calendar');
     calendarControlsEl.classList.add('calendar-controls');
