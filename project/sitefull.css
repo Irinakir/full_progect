@@ -1492,7 +1492,7 @@ z-index:30;
   .new_icon,
   .product{
    /*visibility: hidden;*/
-   width:60px;
+   width:80px;
  }
 	
   .prod_text_middle_price{
@@ -1517,7 +1517,7 @@ z-index:30;
   
   .new_prod_part-img,
 	.new_icon{
-  width:55%;
+  width:65%;
   }
 
 	
