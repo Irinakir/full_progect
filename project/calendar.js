@@ -190,11 +190,11 @@ function Calendar(startMonth, startYear) {
         startDay = new Date(currentYear, currentMonth + shiftLength, 1);
         currentMonth = startDay.getMonth();
         currentYear = startDay.getFullYear();
-      shiftMonth.preventDefault();
-        render();
+             render();
     }
   
     function getMonthDays( year, month ) {
+      getMonthDays.preventDefault();
         const firstDayInMonth = new Date(year, month, 1),
            firstWeekDayInMonth = (6 + firstDayInMonth.getDay())%7,
            lastDayInMont = new Date(year, month + 1, 0),
