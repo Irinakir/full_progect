@@ -1188,7 +1188,6 @@ z-index:30;
     width: 280px;
   /*  margin: 20px auto;*/
     margin: 30px ;
-	event.preventDefault;
 }
 
 .calendar ul {
@@ -1247,14 +1246,12 @@ z-index:30;
     line-height: 2.8em;
     font-size: 18px;
     color:#730000;
-	event.preventDefault;
 }
 
 .calendar__prev-month,
 .calendar__next-month {
     text-decoration: none;
 	color: #730000;
-	event.preventDefault;
 }
 
 .calendar__prev-month:hover,
