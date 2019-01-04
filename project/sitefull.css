@@ -1195,7 +1195,7 @@ z-index:30;
 .slider--active
 {
   display: block;
-	 z-index:300;
+  z-index:300;
 }
 
 .slider__viewbox
@@ -1241,7 +1241,7 @@ z-index:30;
   object-fit: cover;
 }
 
-.slider__item-title
+/*.slider__item-title
 {
   position: absolute;
   top: 30px;
@@ -1249,13 +1249,13 @@ z-index:30;
   margin: 0;
   padding: 10px 30px;
   background: rgba(255, 255, 255, .5);
-}
+}*/
 
 .slider__next,
 .slider__prev
 {
   position: absolute;
-  width: 40%;
+  width: 30%;
   height: 100%;
   border: 0;
   background: transparent;
