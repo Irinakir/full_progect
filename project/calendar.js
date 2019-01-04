@@ -184,14 +184,13 @@ function Calendar(startMonth, startYear) {
     );
     
     calendarControlsEl.append(calendarPrevLinkEl, calendarTitleEl, calendarNextLinkEl);
-    calendarEl.preventDefault();
-    calendarEl.append(calendarControlsEl, calendarWeekdaysEl, calendarDaysEl);
+       calendarEl.append(calendarControlsEl, calendarWeekdaysEl, calendarDaysEl);
   
     function shiftMonth(shiftLength) {
         startDay = new Date(currentYear, currentMonth + shiftLength, 1);
         currentMonth = startDay.getMonth();
         currentYear = startDay.getFullYear();
-      
+      shiftLength.preventDefault();
         render();
     }
   
