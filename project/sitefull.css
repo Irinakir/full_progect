@@ -1245,13 +1245,13 @@ z-index:30;
     justify-content: space-between;
     line-height: 2.8em;
     font-size: 18px;
-    color:#666699;
+    color:#730000;
 }
 
 .calendar__prev-month,
 .calendar__next-month {
     text-decoration: none;
-	color: #666699;
+	color: #730000;
 }
 
 .calendar__prev-month:hover,
