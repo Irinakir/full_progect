@@ -1,7 +1,7 @@
 console.clear();
 
 // Component TodoList Constructor
-class TodoList {
+/*class TodoList {
   constructor( currentDay ) {
     const todoEl = document.createElement('div'),
           todoBannerEl = document.createElement('h3'),
@@ -109,13 +109,13 @@ class TodoList {
     return todoEl;
   }
 }
-
+*/
 // Global variables
 const currentDay = new Date(),
       currentMonth = currentDay.getMonth(),
       currentYear = currentDay.getFullYear(),
       calendarComponent = new Calendar(currentMonth, currentYear),
-      todoComponent = new TodoList( currentDay ),
+    /*  todoComponent = new TodoList( currentDay ),*/
       contentEl = document.getElementById('content');
 
 // Component Calendar Constructor
