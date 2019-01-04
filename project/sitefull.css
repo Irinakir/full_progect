@@ -1244,9 +1244,11 @@ z-index:30;
 }
 .slider__buy{
   border: 0;
-  font-size: 10px;
+  font-size: 18px;
   outline: none;
+	align-items: flex-end;
 	background: #990000;
+	color:#fff;
    border-radius: 5px;
 }
 
