@@ -1204,12 +1204,14 @@ z-index:30;
   box-sizing: border-box;
   width: 30%;
   height: 30%;
-  padding: 20px;
+  padding: 50px;
   border-radius: 20px;
   background: #fff;
   position: absolute;
   top: 30%;
   left:32%;
+	  justify-content: center; 
+  align-items: center;
 }
 
 .slider__wrapper
