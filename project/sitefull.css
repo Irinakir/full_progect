@@ -1178,11 +1178,11 @@ z-index:30;
 }
 
 /*Calendar*/
-/** {
-    box-sizing: border-box;
-    margin: 0;
+* {
+  /*  box-sizing: border-box;
+    margin: 0;*/
     padding: 0;
-}*/
+}
 .calendar {
     display: block;
     width: 280px;
