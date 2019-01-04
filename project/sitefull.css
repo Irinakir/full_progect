@@ -1186,6 +1186,7 @@ z-index:30;
 .calendar {
     display: block;
     width: 280px;
+	 box-sizing: border-box;
   /*  margin: 20px auto;*/
     margin: 35px ;
 }
