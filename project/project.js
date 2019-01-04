@@ -13,9 +13,10 @@ function Slider(params = {}) {
   sliderEl.addEventListener('click', closeSlider);
   
   function openSlider(targetEl) {
+	       fillSliderContent(targetEl);
      sliderEl.classList.add('slider--active');
     
-     fillSliderContent(targetEl);
+  /*   fillSliderContent(targetEl);*/
   }
   
   function closeSlider(e) {
@@ -27,6 +28,7 @@ function Slider(params = {}) {
   }
   
   function fillSliderContent(targetEl){
+	  sliderBodyEl.innerText = '';
     const imgSrc  = targetEl.getAttribute('src'),
           altText = targetEl.getAttribute('alt');
     slideEl = createSlide(imgSrc, altText);
