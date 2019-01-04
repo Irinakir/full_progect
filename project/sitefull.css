@@ -1191,7 +1191,7 @@ z-index:30;
 
 .calendar ul {
     box-sizing: content-box;
-    width: 100%;
+    width: 80%;
     color: #444;
     font-size: 0;
 }
