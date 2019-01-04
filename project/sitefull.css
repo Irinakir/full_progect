@@ -1252,6 +1252,7 @@ z-index:30;
 .calendar__next-month {
     text-decoration: none;
 	color: #730000;
+	event.preventDefault;
 }
 
 .calendar__prev-month:hover,
