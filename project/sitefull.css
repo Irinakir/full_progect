@@ -367,8 +367,8 @@ padding:2px 2px 0 2px;
 .popup_bg {
 	background:rgba(0,0,0,0.3);
 	position:fixed;
-	z-
-	:50;
+	z-index:50;
+	border-radius: 10px;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -386,6 +386,7 @@ padding:2px 2px 0 2px;
 	transform: translate(-50%,-50%);
 	max-height: 90%;
 	width:25%;
+	/*border-radius: 10px;*/
 }
 
 .popup_img {
