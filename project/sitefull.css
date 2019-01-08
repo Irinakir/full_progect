@@ -336,6 +336,10 @@ padding:2px 2px 0 2px;
   justify-content:  stretch;
 }
 
+.more_button{
+	outline: none;
+	border:0;
+}
 
 /*zoom*/
 .button_zoom{
