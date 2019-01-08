@@ -342,7 +342,7 @@ padding:2px 2px 0 2px;
 	margin:30px;
 	cursor: -webkit-zoom-in;
 	cursor:zoom-in;
-	 outline: none;
+	outline: none;
 }
 .image_zoom {
 	margin:30px;
@@ -588,11 +588,12 @@ ul.list li{
 
 
 .more{
-color:#ac3939;
-float:right;
-text-decoration:none;
-font-size:11px;
-padding:0px 15px 0 0 ;
+  color:#ac3939;
+  float:right;
+  text-decoration:none;
+  font-size:11px;
+  padding:0px 15px 0 0 ;
+  outline : none;
 }
 
 .prod_img{
@@ -1014,6 +1015,10 @@ input.register{
   outline : none;
 }
 
+.register{
+  outline : none;
+}
+
 .terms{
   padding:0px;
   font-size:15px;
@@ -1061,6 +1066,7 @@ a.contact{
   color:#fff;
   background:url(pic/contact_bt.gif) no-repeat center;
   font-size: 15px;
+  outline : none;
 }
 
 /**/
@@ -1250,12 +1256,14 @@ z-index:30;
 .calendar__prev-month,
 .calendar__next-month {
     text-decoration: none;
-	color: #730000;
+    color: #730000;
+    outline : none;
 }
 
 .calendar__prev-month:hover,
 .calendar__next-month:hover {
     color: #e60000;
+    outline : none;
 }
 
 /*End_Calendar*/
@@ -1348,6 +1356,7 @@ z-index:30;
 
 .slider__buy:hover {
   background-color: #990000c9;
+  outline : none;
 }
 
 
