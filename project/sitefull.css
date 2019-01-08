@@ -361,13 +361,13 @@ padding:2px 2px 0 2px;
 	left:0;
 	display:none;
 	text-align:center;
+	border-radius: 10px;
 }
 
 .popup_bg {
 	background:rgba(0,0,0,0.3);
 	position:fixed;
 	z-index:50;
-	border-radius: 10px;
 	top: 0;
 	left: 0;
 	bottom: 0;
