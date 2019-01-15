@@ -639,7 +639,7 @@ ul.list li{
 .new_prod{
   padding:10px
 }
-.new_prod_part-img tr{  
+.new_prod_part-img td{  
   height:auto;
   width:70%;
 }
