@@ -639,6 +639,10 @@ ul.list li{
 .new_prod{
   padding:10px
 }
+.new_prod_part-img tr{  
+  height:auto;
+  width:70%;
+}
 
 .new_prod_part-img{
   height:auto;
